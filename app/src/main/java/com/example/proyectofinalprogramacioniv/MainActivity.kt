@@ -10,7 +10,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-
     }
 
     fun btnSigResgiter(Vistas: View){
@@ -18,8 +17,13 @@ class MainActivity : AppCompatActivity() {
         startActivity(ventanaSiguiente)
     }
 
-    fun IniciarSesion(){
+    fun loginbtn(Vistas: View){
 
+        val ventanaSiguiente: Intent = Intent(applicationContext,DesignHome::class.java)
+        startActivity(ventanaSiguiente)
+    }
+
+    fun IniciarSesion(){
 
 
 
