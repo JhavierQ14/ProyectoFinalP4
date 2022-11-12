@@ -23,6 +23,12 @@ class MainActivity : AppCompatActivity() {
         startActivity(ventanaSiguiente)
     }
 
+    fun btnMyPerfil(Vistas: View){
+
+        val ventanaSiguiente: Intent = Intent(applicationContext,user_perfil::class.java)
+        startActivity(ventanaSiguiente)
+    }
+
     fun IniciarSesion(){
 
 
