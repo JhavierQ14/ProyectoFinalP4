@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "933828037451",
+    "project_id": "testvmtapp",
+    "storage_bucket": "testvmtapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:933828037451:android:48cf42ad0bfe1eaf2576ce",
+        "android_client_info": {
+          "package_name": "com.unab.testvmtsvapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "933828037451-v4enrtio6d7kr0gkjd8farnvs2ntc4ft.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDR7lOAcBb4GNfC-FV_R5-585-7i3l2ddI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "933828037451-v4enrtio6d7kr0gkjd8farnvs2ntc4ft.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
