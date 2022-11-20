@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "66800810833",
-    "project_id": "testvmt-46984",
-    "storage_bucket": "testvmt-46984.appspot.com"
+    "project_number": "933828037451",
+    "project_id": "testvmtapp",
+    "storage_bucket": "testvmtapp.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:66800810833:android:caae8e6e3a64bcb1ef3170",
+        "mobilesdk_app_id": "1:933828037451:android:aca5f7902ad0476d2576ce",
         "android_client_info": {
           "package_name": "com.example.proyectofinalprogramacioniv"
         }
       },
       "oauth_client": [
         {
-          "client_id": "66800810833-0mtquu8ckedpnj8sqetfq08bm3ljm0j2.apps.googleusercontent.com",
+          "client_id": "933828037451-v4enrtio6d7kr0gkjd8farnvs2ntc4ft.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCHlV9n95skZBh5Q-miQR-EuzJLI-wVVZQ"
+          "current_key": "AIzaSyDR7lOAcBb4GNfC-FV_R5-585-7i3l2ddI"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "66800810833-0mtquu8ckedpnj8sqetfq08bm3ljm0j2.apps.googleusercontent.com",
+              "client_id": "933828037451-v4enrtio6d7kr0gkjd8farnvs2ntc4ft.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

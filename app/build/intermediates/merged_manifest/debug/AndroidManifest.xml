@@ -27,6 +27,13 @@
         android:testOnly="true"
         android:theme="@style/Theme.ProyectoFinalProgramacionIV" >
         <activity
+            android:name="com.example.proyectofinalprogramacioniv.PerfilActivity"
+            android:exported="false" >
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name="com.example.proyectofinalprogramacioniv.UI.user_perfil"
             android:exported="false" >
             <meta-data
@@ -34,21 +41,21 @@
                 android:value="" />
         </activity>
         <activity
-            android:name="com.example.proyectofinalprogramacioniv.UI.DesignHome"
+            android:name="com.example.proyectofinalprogramacioniv.DesignHome"
             android:exported="false" >
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name="com.example.proyectofinalprogramacioniv.UI.RegistrarseActivity"
+            android:name="com.example.proyectofinalprogramacioniv.RegistrarseActivity"
             android:exported="false" >
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name="com.example.proyectofinalprogramacioniv.UI.MainActivity"
+            android:name="com.example.proyectofinalprogramacioniv.SignInActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

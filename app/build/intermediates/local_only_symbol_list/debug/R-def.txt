@@ -32,11 +32,11 @@ drawable usuario1
 id ActualizarPerfil
 id Email
 id Login
+id MyPerfil
 id NumRanking
 id Pass
 id RankingLabel
 id Regitrarbtn
-id btnMyPerfil
 id cardView
 id cardView2
 id cardView3
@@ -59,9 +59,9 @@ id textView
 id textView3
 id username
 layout activity_design_home
-layout activity_main
+layout activity_perfil
 layout activity_registrarse
-layout activity_user_perfil
+layout signin_main
 mipmap ic_launcher
 mipmap ic_launcher_round
 string app_name
