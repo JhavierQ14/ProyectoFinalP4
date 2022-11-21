@@ -2582,16 +2582,12 @@ id ActualizarPerfil
 id BOTTOM_END
 id BOTTOM_START
 id CTRL
-id Email
 id FUNCTION
 id Login
 id META
-id MyPerfil
 id NO_DEBUG
 id NumRanking
-id Pass
 id RankingLabel
-id Regitrarbtn
 id SHIFT
 id SHOW_ALL
 id SHOW_PATH
@@ -2690,6 +2686,8 @@ id browser_actions_menu_item_icon
 id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
+id btnMyPerfil
+id btnSignUpI
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -2778,6 +2776,8 @@ id east
 id edit_query
 id edittext_dropdown_editable
 id edittext_dropdown_noneditable
+id edtEmailII
+id edtPasswordII
 id elastic
 id end
 id endToStart
@@ -2919,7 +2919,6 @@ id neverCompleteToEnd
 id neverCompleteToStart
 id noScroll
 id noState
-id nombreDeUsuario
 id none
 id normal
 id north
@@ -3077,6 +3076,7 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id tvTitleSignUp
 id unchecked
 id uniform
 id unlabeled
@@ -3197,7 +3197,7 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_design_home
 layout activity_perfil
-layout activity_registrarse
+layout activity_sign_up
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
 layout custom_dialog

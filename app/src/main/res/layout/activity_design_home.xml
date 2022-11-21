@@ -42,12 +42,12 @@
         app:layout_constraintTop_toBottomOf="@+id/textView" >
 
         <LinearLayout
-            android:id="@+id/MyPerfil"
+            android:id="@+id/btnMyPerfil"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_gravity="center_horizontal|center_vertical"
             android:gravity="center"
-            android:onClick="btnMyPerfil"
+            android:onClick="MyPerfil"
             android:orientation="vertical">
 
             <ImageView

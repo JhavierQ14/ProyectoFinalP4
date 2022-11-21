@@ -27,6 +27,13 @@
         android:testOnly="true"
         android:theme="@style/Theme.ProyectoFinalProgramacionIV" >
         <activity
+            android:name="com.example.proyectofinalprogramacioniv.SignUpActivity"
+            android:exported="false" >
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name="com.example.proyectofinalprogramacioniv.PerfilActivity"
             android:exported="false" >
             <meta-data

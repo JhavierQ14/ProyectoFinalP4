@@ -48,7 +48,7 @@ class SignInActivity : AppCompatActivity() {
 
 
     fun btnSigResgiter(Vistas: View) {
-        val ventanaSiguiente: Intent = Intent(applicationContext, RegistrarseActivity::class.java)
+        val ventanaSiguiente: Intent = Intent(applicationContext, SignUpActivity::class.java)
         startActivity(ventanaSiguiente)
     }
 
@@ -64,9 +64,8 @@ class SignInActivity : AppCompatActivity() {
 
     loginBtn.setOnClickListener {
 
-
-            var e = "prueba@gmail.com"/*emailEdt.text.toString()*/
-            var p = "12345678"/*passwordEdt.text.toString()*/
+            var e = emailEdt.text.toString()
+            var p = passwordEdt.text.toString()
 
             if (e.isNotEmpty() && p.isNotEmpty()) {
 
@@ -85,6 +84,7 @@ class SignInActivity : AppCompatActivity() {
                         AlertS()
                     }
                 }
+
             } else {
                 Toast.makeText(
                     applicationContext,

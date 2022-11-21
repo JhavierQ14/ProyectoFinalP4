@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="default_web_client_id" translatable="false">66800810833-0mtquu8ckedpnj8sqetfq08bm3ljm0j2.apps.googleusercontent.com</string>
-    <string name="gcm_defaultSenderId" translatable="false">66800810833</string>
-    <string name="google_api_key" translatable="false">AIzaSyCHlV9n95skZBh5Q-miQR-EuzJLI-wVVZQ</string>
-    <string name="google_app_id" translatable="false">1:66800810833:android:caae8e6e3a64bcb1ef3170</string>
-    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCHlV9n95skZBh5Q-miQR-EuzJLI-wVVZQ</string>
-    <string name="google_storage_bucket" translatable="false">testvmt-46984.appspot.com</string>
-    <string name="project_id" translatable="false">testvmt-46984</string>
+    <string name="default_web_client_id" translatable="false">933828037451-v4enrtio6d7kr0gkjd8farnvs2ntc4ft.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">933828037451</string>
+    <string name="google_api_key" translatable="false">AIzaSyDR7lOAcBb4GNfC-FV_R5-585-7i3l2ddI</string>
+    <string name="google_app_id" translatable="false">1:933828037451:android:aca5f7902ad0476d2576ce</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDR7lOAcBb4GNfC-FV_R5-585-7i3l2ddI</string>
+    <string name="google_storage_bucket" translatable="false">testvmtapp.appspot.com</string>
+    <string name="project_id" translatable="false">testvmtapp</string>
 </resources>

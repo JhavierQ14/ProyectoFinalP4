@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="300dp"
         android:padding="20dp"
-        android:background="@color/material_dynamic_neutral_variant60">
+        android:background="@color/white">
 
         <ImageView
             android:id="@+id/perfil_image"
@@ -55,7 +55,7 @@
             android:layout_width="0dp"
             android:layout_height="125dp"
             android:layout_weight="1"
-            app:cardBackgroundColor="@color/material_dynamic_neutral_variant60"
+            app:cardBackgroundColor="@color/white"
             app:cardElevation="10dp"
             android:layout_margin="10dp">
             <RelativeLayout
@@ -98,7 +98,7 @@
             android:layout_width="0dp"
             android:layout_height="125dp"
             android:layout_weight="1"
-            app:cardBackgroundColor="@color/material_dynamic_neutral_variant60"
+            app:cardBackgroundColor="@color/white"
             app:cardElevation="10dp"
             android:layout_margin="10dp">
             <RelativeLayout
@@ -186,10 +186,9 @@
             android:layout_height="wrap_content"
             android:text="Actualizar"
             android:fontFamily="sans-serif"
-            android:background="@color/material_dynamic_neutral_variant10">
+            android:background="@color/white">
 
         </Button>
-
 
 
     </LinearLayout>
