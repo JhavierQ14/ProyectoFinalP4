@@ -1,5 +1,6 @@
 R_DEF: Internal format may change without notice
 local
+color Gris
 color black
 color purple_200
 color purple_500
@@ -10,7 +11,10 @@ color white
 drawable background
 drawable clasificacion
 drawable configuraciones
+drawable crucepeoton
+drawable default_option_border_bg
 drawable examenpsicologica
+drawable fblogo
 drawable google
 drawable historial
 drawable ic_baseline_alternate_email_24
@@ -23,6 +27,9 @@ drawable ic_baseline_person_pin_circle_24
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable libros
+drawable pasodepeatones
+drawable pea
+drawable peatonc
 drawable puntuacion
 drawable ranking
 drawable testps
@@ -33,7 +40,13 @@ id ActualizarPerfil
 id Login
 id NumRanking
 id RankingLabel
+id btnConfig
+id btnEnviarRespuesta
+id btnEstudiar
+id btnHistorial
 id btnMyPerfil
+id btnQuestionP
+id btnQuestionT
 id btnSignUpI
 id cardView
 id cardView2
@@ -41,25 +54,35 @@ id cardView3
 id cardView4
 id cardView5
 id despuesveo1
+id detalles
 id edtEmailII
 id edtPasswordII
 id forgetPass
 id full_name
 id google_btn
 id guideline2
+id iv_image
 id loginbtn
 id otros
 id password
 id perfil_image
+id progreesBar
 id puntuacionLabel
 id signUpTextView
 id socialicons
 id textView
 id textView3
 id tvTitleSignUp
+id tv_Progres
+id tv_cuartaOpcion
+id tv_pregunta
+id tv_primeraOpcion
+id tv_segundaOpcion
+id tv_terceraOpcion
 id username
 layout activity_design_home
 layout activity_perfil
+layout activity_question
 layout activity_sign_up
 layout signin_main
 mipmap ic_launcher

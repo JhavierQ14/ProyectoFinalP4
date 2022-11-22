@@ -1179,6 +1179,7 @@ attr yearTodayStyle
 bool abc_action_bar_embed_tabs
 bool abc_config_actionMenuItemAllCaps
 bool mtrl_btn_textappearance_all_caps
+color Gris
 color abc_background_cache_hint_selector_material_dark
 color abc_background_cache_hint_selector_material_light
 color abc_btn_colored_borderless_text_material
@@ -2497,12 +2498,15 @@ drawable common_google_signin_btn_text_light_focused
 drawable common_google_signin_btn_text_light_normal
 drawable common_google_signin_btn_text_light_normal_background
 drawable configuraciones
+drawable crucepeoton
+drawable default_option_border_bg
 drawable design_fab_background
 drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
 drawable examenpsicologica
+drawable fblogo
 drawable google
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
@@ -2567,6 +2571,9 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable pasodepeatones
+drawable pea
+drawable peatonc
 drawable puntuacion
 drawable ranking
 drawable test_custom_background
@@ -2686,7 +2693,13 @@ id browser_actions_menu_item_icon
 id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
+id btnConfig
+id btnEnviarRespuesta
+id btnEstudiar
+id btnHistorial
 id btnMyPerfil
+id btnQuestionP
+id btnQuestionT
 id btnSignUpI
 id buttonPanel
 id cache_measures
@@ -2750,6 +2763,7 @@ id design_menu_item_action_area_stub
 id design_menu_item_text
 id design_navigation_view
 id despuesveo1
+id detalles
 id dialog_button
 id dimensions
 id direct
@@ -2836,6 +2850,7 @@ id invisible
 id inward
 id italic
 id item_touch_helper_previous_elevation
+id iv_image
 id jumpToEnd
 id jumpToStart
 id labeled
@@ -2948,6 +2963,7 @@ id perfil_image
 id pin
 id position
 id postLayout
+id progreesBar
 id progress_circular
 id progress_horizontal
 id puntuacionLabel
@@ -3077,6 +3093,12 @@ id transition_scene_layoutid_cache
 id transition_transform
 id triangle
 id tvTitleSignUp
+id tv_Progres
+id tv_cuartaOpcion
+id tv_pregunta
+id tv_primeraOpcion
+id tv_segundaOpcion
+id tv_terceraOpcion
 id unchecked
 id uniform
 id unlabeled
@@ -3197,6 +3219,7 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_design_home
 layout activity_perfil
+layout activity_question
 layout activity_sign_up
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
