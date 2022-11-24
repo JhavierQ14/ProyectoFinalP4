@@ -16,6 +16,13 @@
         android:theme="@style/Theme.ProyectoFinalProgramacionIV"
         tools:targetApi="31">
         <activity
+            android:name=".ConfigActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".QuestionActivity"
             android:exported="false">
             <meta-data

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context=".ConfigActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Configuraciones."
+        android:textColor="@color/white"
+        android:textSize="38dp"
+        android:textStyle="bold" />
+
+
+    <Switch
+        android:id="@+id/swtich"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:textColor="@color/white"
+        android:text="Activar modo Oscuro"
+        tools:ignore="UseSmitchCompatOrMarterialXml" />
+
+    <ImageView
+        android:id="@+id/ivModo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/modoclaro" />
+
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/Regresarh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="@color/design_default_color_primary"
+        android:onClick="RegresarAlHomee"
+        android:text="Regresar al inicio" />
+
+
+
+
+</LinearLayout>
+

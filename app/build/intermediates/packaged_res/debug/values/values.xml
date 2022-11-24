@@ -15,8 +15,9 @@
     <string name="google_app_id" translatable="false">1:933828037451:android:aca5f7902ad0476d2576ce</string>
     <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDR7lOAcBb4GNfC-FV_R5-585-7i3l2ddI</string>
     <string name="google_storage_bucket" translatable="false">testvmtapp.appspot.com</string>
+    <string name="prefs_files">com.example.proyectofinalprogramacioniv.PREFERENCE_FILE_KEY</string>
     <string name="project_id" translatable="false">testvmtapp</string>
-    <style name="Theme.ProyectoFinalProgramacionIV" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+    <style name="Theme.ProyectoFinalProgramacionIV" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         
         <item name="colorPrimary">@color/purple_500</item>
         <item name="colorPrimaryVariant">@color/purple_700</item>

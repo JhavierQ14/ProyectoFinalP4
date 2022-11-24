@@ -1,14 +1,20 @@
 package com.example.proyectofinalprogramacioniv
 
 import android.app.AlertDialog
+import android.content.Context
 import android.content.Intent
+import android.content.SharedPreferences
 import android.os.Bundle
 import android.view.View
 import android.widget.Button
 import android.widget.EditText
+import android.widget.ImageView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.example.proyectofinalprogramacioniv.Domain.Authentication
+import com.google.android.gms.auth.api.identity.BeginSignInRequest
+import com.google.android.gms.auth.api.signin.GoogleSignIn
+import com.google.android.gms.auth.api.signin.GoogleSignInOptions
 import com.google.firebase.analytics.FirebaseAnalytics
 import com.google.firebase.analytics.ktx.analytics
 import com.google.firebase.auth.FirebaseAuth
@@ -21,6 +27,7 @@ class SignInActivity : AppCompatActivity() {
     private lateinit var loginBtn: Button
     private lateinit var emailEdt: EditText
     private lateinit var passwordEdt: EditText
+    private lateinit var  GoogleAuthBtn: ImageView
 
     override fun onCreate(savedInstanceState: Bundle?) {
 
@@ -36,10 +43,13 @@ class SignInActivity : AppCompatActivity() {
         loginBtn = findViewById(R.id.loginbtn)
         emailEdt = findViewById(R.id.username)
         passwordEdt = findViewById(R.id.password)
+        GoogleAuthBtn = findViewById(R.id.google_btn)
 
         //emailEdt.setText(auth.toString())
         IniciarSesion()
     }
+
+
 
     fun LogIn() {
 
@@ -92,6 +102,23 @@ class SignInActivity : AppCompatActivity() {
                 )
             }
         }
+
+        GoogleAuthBtn.setOnClickListener{
+
+          val  signInRequest = BeginSignInRequest.builder()
+                .setGoogleIdTokenRequestOptions(
+                    BeginSignInRequest.GoogleIdTokenRequestOptions.builder()
+                        .setSupported(true)
+                        .setServerClientId(getString(R.string.default_web_client_id))
+                        .setFilterByAuthorizedAccounts(true)
+                        .build())
+                .build()
+
+           // val googleClient = GoogleSignIn.getClient(this,)
+
+
+        }
+
 
     }
 

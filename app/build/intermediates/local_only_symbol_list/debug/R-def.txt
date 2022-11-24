@@ -27,6 +27,8 @@ drawable ic_baseline_person_pin_circle_24
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable libros
+drawable modoclaro
+drawable modooscuro
 drawable pasodepeatones
 drawable pea
 drawable peatonc
@@ -40,6 +42,7 @@ id ActualizarPerfil
 id Login
 id NumRanking
 id RankingLabel
+id Regresarh
 id btnConfig
 id btnEnviarRespuesta
 id btnEstudiar
@@ -57,10 +60,12 @@ id despuesveo1
 id detalles
 id edtEmailII
 id edtPasswordII
+id fb_btn
 id forgetPass
 id full_name
 id google_btn
 id guideline2
+id ivModo
 id iv_image
 id loginbtn
 id otros
@@ -70,6 +75,7 @@ id progreesBar
 id puntuacionLabel
 id signUpTextView
 id socialicons
+id swtich
 id textView
 id textView3
 id tvTitleSignUp
@@ -80,6 +86,7 @@ id tv_primeraOpcion
 id tv_segundaOpcion
 id tv_terceraOpcion
 id username
+layout activity_config
 layout activity_design_home
 layout activity_perfil
 layout activity_question
@@ -94,6 +101,7 @@ string google_api_key
 string google_app_id
 string google_crash_reporting_api_key
 string google_storage_bucket
+string prefs_files
 string project_id
 style Theme.ProyectoFinalProgramacionIV
 xml backup_rules

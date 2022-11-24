@@ -2548,6 +2548,8 @@ drawable material_ic_keyboard_arrow_previous_black_24dp
 drawable material_ic_keyboard_arrow_right_black_24dp
 drawable material_ic_menu_arrow_down_black_24dp
 drawable material_ic_menu_arrow_up_black_24dp
+drawable modoclaro
+drawable modooscuro
 drawable mtrl_dialog_background
 drawable mtrl_dropdown_arrow
 drawable mtrl_ic_arrow_drop_down
@@ -2595,6 +2597,7 @@ id META
 id NO_DEBUG
 id NumRanking
 id RankingLabel
+id Regresarh
 id SHIFT
 id SHOW_ALL
 id SHOW_PATH
@@ -2801,6 +2804,7 @@ id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
 id fade
+id fb_btn
 id fill
 id fill_horizontal
 id fill_vertical
@@ -2850,6 +2854,7 @@ id invisible
 id inward
 id italic
 id item_touch_helper_previous_elevation
+id ivModo
 id iv_image
 id jumpToEnd
 id jumpToStart
@@ -3040,6 +3045,7 @@ id stretch
 id submenuarrow
 id submit_area
 id supportScrollUp
+id swtich
 id tabMode
 id tag_accessibility_actions
 id tag_accessibility_clickable_spans
@@ -3217,6 +3223,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_config
 layout activity_design_home
 layout activity_perfil
 layout activity_question
@@ -3467,6 +3474,7 @@ string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
+string prefs_files
 string project_id
 string search_menu_title
 string status_bar_notification_info_overflow

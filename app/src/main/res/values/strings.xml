@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">ProyectoFinalProgramacionIV</string>
+    <string name="prefs_files">com.example.proyectofinalprogramacioniv.PREFERENCE_FILE_KEY</string>
 </resources>
