@@ -1,36 +1,31 @@
 package com.example.proyectofinalprogramacioniv
 
 import android.app.AlertDialog
-import android.content.Context
 import android.content.Intent
-import android.content.SharedPreferences
 import android.os.Bundle
 import android.view.View
-import android.widget.Button
-import android.widget.EditText
-import android.widget.ImageView
-import android.widget.Toast
+import android.widget.*
 import androidx.appcompat.app.AppCompatActivity
-import com.example.proyectofinalprogramacioniv.Domain.Authentication
-import com.google.android.gms.auth.api.identity.BeginSignInRequest
-import com.google.android.gms.auth.api.signin.GoogleSignIn
-import com.google.android.gms.auth.api.signin.GoogleSignInOptions
+import com.example.proyectofinalprogramacioniv.Domain.ClsAuthentication
 import com.google.firebase.analytics.FirebaseAnalytics
 import com.google.firebase.analytics.ktx.analytics
 import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
 
 class SignInActivity : AppCompatActivity() {
 
-    private lateinit var firebaseAnalytics: FirebaseAnalytics
+    //Variables Globales
+    private lateinit var firebaseAnalytics: FirebaseAnalytics /* */
     private lateinit var auth: FirebaseAuth
-    private lateinit var loginBtn: Button
+    private lateinit var signInBtn: Button
     private lateinit var emailEdt: EditText
     private lateinit var passwordEdt: EditText
-    private lateinit var  GoogleAuthBtn: ImageView
+    private lateinit var signUpTv: TextView
+    private lateinit var signGoogleBtn: ImageView
+    //private lateinit var signFacebookBtn: ImageView
 
     override fun onCreate(savedInstanceState: Bundle?) {
-
         super.onCreate(savedInstanceState)
         setContentView(R.layout.signin_main)
 
@@ -38,97 +33,57 @@ class SignInActivity : AppCompatActivity() {
         firebaseAnalytics = Firebase.analytics
 
         // Initialize Firebase Auth
-        //auth = Firebase.auth
+        auth = Firebase.auth
 
-        loginBtn = findViewById(R.id.loginbtn)
-        emailEdt = findViewById(R.id.username)
-        passwordEdt = findViewById(R.id.password)
-        GoogleAuthBtn = findViewById(R.id.google_btn)
+        // Asignacion de eventos a variables Globales
+        signInBtn = findViewById(R.id.btnSignIn)
+        emailEdt = findViewById(R.id.edtEmail)
+        passwordEdt = findViewById(R.id.edtPassword)
+        signUpTv = findViewById(R.id.tvGoSignUp)
+        signGoogleBtn = findViewById(R.id.imgSignGoogle)
+        //signFacebookBtn = findViewById(R.id.imgSignFacebook)
 
-        //emailEdt.setText(auth.toString())
-        IniciarSesion()
+        //Inicializando Metodos
+        SignIn()
+
     }
 
+    override fun onStart() {
+        super.onStart()
 
+        // Objeto referencia a ClsAuthentication
+        var oClsAuthentication: ClsAuthentication = ClsAuthentication()
 
-    fun LogIn() {
+        // Capturar respuesta de usuario iniciado
+        var response = oClsAuthentication.VerificationSignIn()
 
-        var oAuthentication = Authentication()
-    }
+        // Verificar respuesta
+        if (response != 0){
 
-
-    fun btnSigResgiter(Vistas: View) {
-        val ventanaSiguiente: Intent = Intent(applicationContext, SignUpActivity::class.java)
-        startActivity(ventanaSiguiente)
-    }
-
-    fun home(Vistas: View) {
-
-        val ventanaSiguiente: Intent = Intent(applicationContext, DesignHome::class.java)
-        startActivity(ventanaSiguiente)
-    }
-
-
-
-    fun IniciarSesion() {
-
-    loginBtn.setOnClickListener {
-
-            var e = emailEdt.text.toString()
-            var p = passwordEdt.text.toString()
-
-            if (e.isNotEmpty() && p.isNotEmpty()) {
-
-                FirebaseAuth.getInstance().signInWithEmailAndPassword(
-                    e,
-                    p
-                ).addOnCompleteListener {
-
-                    if (it.isSuccessful) {
-
-                        NextDesing()
-
-
-                    } else {
-
-                        AlertS()
-                    }
-                }
-
-            } else {
-                Toast.makeText(
-                    applicationContext,
-                    "Debes rellenar los campos", Toast.LENGTH_SHORT
-                )
-            }
+            GoHome()
         }
+        /*else{
 
-        GoogleAuthBtn.setOnClickListener{
-
-          val  signInRequest = BeginSignInRequest.builder()
-                .setGoogleIdTokenRequestOptions(
-                    BeginSignInRequest.GoogleIdTokenRequestOptions.builder()
-                        .setSupported(true)
-                        .setServerClientId(getString(R.string.default_web_client_id))
-                        .setFilterByAuthorizedAccounts(true)
-                        .build())
-                .build()
-
-           // val googleClient = GoogleSignIn.getClient(this,)
-
-
-        }
-
-
+            val intent: Intent = Intent(applicationContext, SignInActivity::class.java)
+            startActivity(intent)
+        }*/
     }
 
-    private fun NextDesing() {
-        val DesingIntent: Intent = Intent(this, DesignHome::class.java)
-        startActivity(DesingIntent)
+    // Funciones ***********************************************************************************
 
+    fun GoSignUp(view: View) {
+
+        val intent: Intent = Intent(applicationContext, SignUpActivity::class.java)
+        startActivity(intent)
     }
 
-    private fun AlertS() {
+    private fun GoHome() {
+
+        val intent: Intent = Intent(applicationContext, DesignHome::class.java)
+        startActivity(intent)
+    }
+
+    private fun Alerts() {
 
         val builder = AlertDialog.Builder(this)
         builder.setTitle("Error")
@@ -138,5 +93,51 @@ class SignInActivity : AppCompatActivity() {
         dialog.show()
     }
 
+    // Metodo de verificacion de inicio de sesion
+    private fun SignIn() {
 
+        //var response = 0
+        //var oClsAuthentication: ClsAuthentication = ClsAuthentication()
+
+        signInBtn.setOnClickListener {
+
+            var email = emailEdt.text.toString()
+            var password = passwordEdt.text.toString()
+            /*var response = oClsAuthentication.SignIn(email, password)
+
+            if (response != 0){
+
+                GoHome()
+
+            } else{
+
+                Alerts()
+            }*/
+
+            if (email.isNotEmpty() && password.isNotEmpty()) {
+
+                FirebaseAuth.getInstance().signInWithEmailAndPassword(
+                    email,
+                    password
+                ).addOnCompleteListener {
+
+                    if (it.isSuccessful) {
+
+                        GoHome()
+
+                    } else {
+
+                        Alerts()
+                    }
+                }
+
+            } else {
+
+                Toast.makeText(
+                    applicationContext,
+                    "Debes rellenar los campos", Toast.LENGTH_SHORT
+                ).show()
+            }
+        }
+    }
 }

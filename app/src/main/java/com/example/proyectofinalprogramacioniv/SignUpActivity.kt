@@ -29,8 +29,8 @@ class SignUpActivity : AppCompatActivity() {
 
     fun SignUp(v: View) {
 
-        var email = emailEdt.text.toString()
-        var password = passwordEdt.text.toString()
+        val email = emailEdt.text.toString()
+        val password = passwordEdt.text.toString()
 
             if (email.isNotEmpty() && password.isNotEmpty()) {
 

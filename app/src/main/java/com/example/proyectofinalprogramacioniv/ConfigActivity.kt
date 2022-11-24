@@ -8,6 +8,7 @@ import android.widget.Button
 import android.widget.ImageView
 import android.widget.Switch
 import androidx.appcompat.app.AppCompatDelegate
+import com.example.proyectofinalprogramacioniv.Domain.ClsAuthentication
 
 class ConfigActivity : AppCompatActivity() {
 
@@ -40,10 +41,32 @@ class ConfigActivity : AppCompatActivity() {
         }
     }
 
+    // Funciones ***********************************************************************************
+
+    // Funcion para regresar a SignInActivity
+    private fun SignIn(){
+
+        val intent: Intent = Intent(this, SignInActivity::class.java)
+        startActivity(intent)
+    }
+
     fun RegresarAlHomee(view: View) {
 
         val ventanaSiguiente: Intent = Intent(this, DesignHome::class.java)
         startActivity(ventanaSiguiente)
+    }
+
+    //Funcion para cerrar secion
+    fun SignOut(view: View){
+
+        // Objeto referencia a ClsAuthentication
+        var oClsAuthentication: ClsAuthentication = ClsAuthentication()
+
+        // Ejecucion de funcion
+        oClsAuthentication.SignOut()
+
+        // Ejecucion de funcion SignIn()
+        SignIn()
     }
 
 }

@@ -20,7 +20,7 @@
 
 
     <EditText
-        android:id="@+id/username"
+        android:id="@+id/edtEmail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/Login"
@@ -38,10 +38,10 @@
         android:textColorHint="@color/white" />
 
     <EditText
-        android:id="@+id/password"
+        android:id="@+id/edtPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/username"
+        android:layout_below="@id/edtEmail"
         android:layout_marginStart="10dp"
         android:layout_marginTop="10dp"
         android:layout_marginEnd="10dp"
@@ -56,10 +56,10 @@
         android:textColorHint="@color/white" />
 
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/loginbtn"
+        android:id="@+id/btnSignIn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/password"
+        android:layout_below="@id/edtPassword"
         android:layout_centerHorizontal="true"
         android:layout_marginStart="20dp"
         android:layout_marginTop="20dp"
@@ -73,7 +73,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_above="@+id/otros"
-        android:layout_below="@id/loginbtn"
+        android:layout_below="@id/btnSignIn"
         android:layout_centerHorizontal="true"
         android:layout_marginStart="20dp"
         android:layout_marginTop="20dp"
@@ -96,7 +96,7 @@
         android:textSize="19sp" />
 
     <TextView
-        android:id="@+id/signUpTextView"
+        android:id="@+id/tvGoSignUp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="261dp"
@@ -106,7 +106,7 @@
         android:layout_marginRight="16dp"
         android:layout_marginBottom="181dp"
         android:layout_weight="0"
-        android:onClick="btnSigResgiter"
+        android:onClick="GoSignUp"
         android:text="Regístrate"
         android:textColor="#ff9900"
         android:textSize="20sp" />
@@ -127,14 +127,14 @@
         android:gravity="center">
 
         <ImageView
-            android:id="@+id/google_btn"
+            android:id="@+id/imgSignGoogle"
             android:layout_width="48dp"
             android:layout_height="48dp"
             android:layout_margin="20dp"
             android:src="@drawable/google"/>
 
         <ImageView
-            android:id="@+id/fb_btn"
+            android:id="@+id/imgSignFacebook"
             android:layout_width="48dp"
             android:layout_height="48dp"
             android:layout_margin="20dp"

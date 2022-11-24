@@ -35,7 +35,18 @@
         android:layout_height="100dp"
         android:src="@drawable/modoclaro" />
 
-
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnSignOut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="@color/design_default_color_primary"
+        android:onClick="SignOut"
+        android:text="Cerrar Sesion" />
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/Regresarh"
@@ -43,14 +54,12 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_marginStart="100dp"
-        android:layout_marginTop="400dp"
+        android:layout_marginTop="60dp"
         android:layout_marginEnd="20dp"
         android:layout_marginBottom="10dp"
         android:backgroundTint="@color/design_default_color_primary"
         android:onClick="RegresarAlHomee"
         android:text="Regresar al inicio" />
-
-
 
 
 </LinearLayout>

@@ -2703,6 +2703,8 @@ id btnHistorial
 id btnMyPerfil
 id btnQuestionP
 id btnQuestionT
+id btnSignIn
+id btnSignOut
 id btnSignUpI
 id buttonPanel
 id cache_measures
@@ -2793,7 +2795,9 @@ id east
 id edit_query
 id edittext_dropdown_editable
 id edittext_dropdown_noneditable
+id edtEmail
 id edtEmailII
+id edtPassword
 id edtPasswordII
 id elastic
 id end
@@ -2804,7 +2808,6 @@ id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
 id fade
-id fb_btn
 id fill
 id fill_horizontal
 id fill_vertical
@@ -2826,7 +2829,6 @@ id fullscreen_header
 id ghost_view
 id ghost_view_holder
 id gone
-id google_btn
 id graph
 id graph_wrap
 id group_divider
@@ -2847,6 +2849,8 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id imgSignFacebook
+id imgSignGoogle
 id immediateStop
 id included
 id info
@@ -2869,7 +2873,6 @@ id line3
 id linear
 id listMode
 id list_item
-id loginbtn
 id masked
 id match_constraint
 id match_parent
@@ -2958,7 +2961,6 @@ id parent
 id parentPanel
 id parentRelative
 id parent_matrix
-id password
 id password_toggle
 id path
 id pathRelative
@@ -3011,7 +3013,6 @@ id shortcut
 id showCustom
 id showHome
 id showTitle
-id signUpTextView
 id sin
 id skipCollapsed
 id skipped
@@ -3098,6 +3099,7 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id tvGoSignUp
 id tvTitleSignUp
 id tv_Progres
 id tv_cuartaOpcion
@@ -3110,7 +3112,6 @@ id uniform
 id unlabeled
 id up
 id useLogo
-id username
 id vertical_only
 id view_offset_helper
 id view_transition
