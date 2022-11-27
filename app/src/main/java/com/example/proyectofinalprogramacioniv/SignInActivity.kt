@@ -13,8 +13,13 @@ import com.example.proyectofinalprogramacioniv.Domain.ClsAuthentication
 import com.google.android.gms.auth.api.identity.BeginSignInRequest
 import com.google.android.gms.auth.api.identity.Identity
 import com.google.android.gms.auth.api.identity.SignInClient
+import com.google.android.gms.auth.api.signin.GoogleSignIn
+import com.google.android.gms.auth.api.signin.GoogleSignInAccount
+import com.google.android.gms.auth.api.signin.GoogleSignInClient
+import com.google.android.gms.auth.api.signin.GoogleSignInOptions
 import com.google.android.gms.common.api.ApiException
 import com.google.android.gms.common.api.CommonStatusCodes
+import com.google.android.gms.tasks.Task
 import com.google.firebase.analytics.FirebaseAnalytics
 import com.google.firebase.analytics.ktx.analytics
 import com.google.firebase.auth.FirebaseAuth
@@ -37,6 +42,7 @@ class SignInActivity : AppCompatActivity() {
     private lateinit var signInRequest: BeginSignInRequest
     private val REQ_ONE_TAP = 2
     private var showOneTapUI = true
+    private var go = 100
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -58,81 +64,16 @@ class SignInActivity : AppCompatActivity() {
 
         //Inicializando Metodos
         SignIn()
-
-
-        oneTapClient = Identity.getSignInClient(this)
-        signInRequest = BeginSignInRequest.builder()
-            .setPasswordRequestOptions(BeginSignInRequest.PasswordRequestOptions.builder()
-                .setSupported(true)
-                .build())
-            .setGoogleIdTokenRequestOptions(
-                BeginSignInRequest.GoogleIdTokenRequestOptions.builder()
-                    .setSupported(true)
-                    // Your server's client ID, not your Android client ID.
-                    .setServerClientId(getString(R.string.default_web_client_id))
-                    // Only show accounts previously used to sign in.
-                    .setFilterByAuthorizedAccounts(true)
-                    .build())
-            // Automatically sign in when exactly one credential is retrieved.
-            .setAutoSelectEnabled(true)
-            .build()
-
     }
 
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
         super.onActivityResult(requestCode, resultCode, data)
 
-        when (requestCode) {
-            REQ_ONE_TAP -> {
-                try {
-                    val credential = oneTapClient.getSignInCredentialFromIntent(data)
-                    val idToken = credential.googleIdToken
-                    val username = credential.id
-                    val password = credential.password
-                    when {
-                        idToken != null -> {
-                            // Got an ID token from Google. Use it to authenticate
-                            // with your backend.
-                            Log.d(TAG, "Got ID token.")
-                        }
-                        password != null -> {
-                            // Got a saved username and password. Use them to authenticate
-                            // with your backend.
-                            Log.d(TAG, "Got password.")
-                        }
-                        else -> {
-                            // Shouldn't happen.
-                            Log.d(TAG, "No ID token or password!")
-                        }
-                    }
-                } catch (e: ApiException) {
-                    // ...
-                }
-            }
-        }
+        if (requestCode == go){
 
-        when (requestCode) {
-            REQ_ONE_TAP -> {
-                try {
-                    // ...
-                } catch (e: ApiException) {
-                    when (e.statusCode) {
-                        CommonStatusCodes.CANCELED -> {
-                            Log.d(TAG, "One-tap dialog was closed.")
-                            // Don't re-prompt the user.
-                            showOneTapUI = false
-                        }
-                        CommonStatusCodes.NETWORK_ERROR -> {
-                            Log.d(TAG, "One-tap encountered a network error.")
-                            // Try again or just ignore.
-                        }
-                        else -> {
-                            Log.d(TAG, "Couldn't get credential from result." +
-                                    " (${e.localizedMessage})")
-                        }
-                    }
-                }
-            }
+            val tas:Task<GoogleSignInAccount> = GoogleSignIn.getSignedInAccountFromIntent(data)
+            val acc: GoogleSignInAccount = tas.getResult(ApiException::class.java)
+
         }
     }
 
@@ -231,7 +172,7 @@ class SignInActivity : AppCompatActivity() {
 
     fun SignInGoogle(view: View){
 
-        oneTapClient.beginSignIn(signInRequest)
+        /*oneTapClient.beginSignIn(signInRequest)
             .addOnSuccessListener(this) { result ->
                 try {
                     startIntentSenderForResult(
@@ -245,6 +186,12 @@ class SignInActivity : AppCompatActivity() {
                 // No saved credentials found. Launch the One Tap sign-up flow, or
                 // do nothing and continue presenting the signed-out UI.
                 Log.d(TAG, e.localizedMessage)
-            }
+            }*/
+        val googleConfig: GoogleSignInOptions = GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
+            .requestIdToken(getString(R.string.default_web_client_id)).requestEmail().build()
+
+        val googleClient: GoogleSignInClient = GoogleSignIn.getClient(this, googleConfig)
+
+        startActivityForResult(googleClient.signInIntent, this.go)
     }
 }
