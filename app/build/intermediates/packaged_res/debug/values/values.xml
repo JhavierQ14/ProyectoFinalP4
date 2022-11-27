@@ -11,6 +11,9 @@
     <color name="white">#FFFFFFFF</color>
     <string name="app_name">VMT ES</string>
     <string name="default_web_client_id" translatable="false">933828037451-v4enrtio6d7kr0gkjd8farnvs2ntc4ft.apps.googleusercontent.com</string>
+    <string name="facebook_app_id">431208905893831</string>
+    <string name="facebook_client_token">14fd963950672c1af72835be96fa6b78</string>
+    <string name="fb_login_protocol_scheme">fb1234</string>
     <string name="gcm_defaultSenderId" translatable="false">933828037451</string>
     <string name="google_api_key" translatable="false">AIzaSyDR7lOAcBb4GNfC-FV_R5-585-7i3l2ddI</string>
     <string name="google_app_id" translatable="false">1:933828037451:android:aca5f7902ad0476d2576ce</string>

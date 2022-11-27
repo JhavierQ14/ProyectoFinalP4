@@ -7,6 +7,11 @@ import android.view.View
 import android.widget.*
 import androidx.appcompat.app.AppCompatActivity
 import com.example.proyectofinalprogramacioniv.Domain.ClsAuthentication
+import com.facebook.CallbackManager
+import com.facebook.FacebookCallback
+import com.facebook.FacebookException
+import com.facebook.login.LoginManager
+import com.facebook.login.LoginResult
 import com.google.android.gms.auth.api.identity.BeginSignInRequest
 import com.google.android.gms.auth.api.identity.SignInClient
 import com.google.android.gms.auth.api.signin.GoogleSignIn
@@ -18,10 +23,12 @@ import com.google.android.gms.tasks.Task
 import com.google.firebase.analytics.FirebaseAnalytics
 import com.google.firebase.analytics.ktx.analytics
 import com.google.firebase.auth.AuthCredential
+import com.google.firebase.auth.FacebookAuthProvider
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.GoogleAuthProvider
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
+import javax.security.auth.callback.Callback
 
 class SignInActivity : AppCompatActivity() {
 
@@ -34,12 +41,14 @@ class SignInActivity : AppCompatActivity() {
     private lateinit var signUpTv: TextView
     private lateinit var signGoogleBtn: ImageView
     //private lateinit var signFacebookBtn: ImageView
+    private lateinit var btnForgetPas: TextView
 
     private lateinit var oneTapClient: SignInClient
     private lateinit var signInRequest: BeginSignInRequest
     private val REQ_ONE_TAP = 2
     private var showOneTapUI = true
     private var go = 100
+    private var callback = CallbackManager.Factory.create()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -58,6 +67,8 @@ class SignInActivity : AppCompatActivity() {
         signUpTv = findViewById(R.id.tvGoSignUp)
         signGoogleBtn = findViewById(R.id.imgSignGoogle)
         //signFacebookBtn = findViewById(R.id.imgSignFacebook)
+        btnForgetPas = findViewById(R.id.forgetPass)
+
 
         //Inicializando Metodos
         SignIn()
@@ -65,6 +76,9 @@ class SignInActivity : AppCompatActivity() {
     }
 
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
+
+        callback.onActivityResult(requestCode,resultCode,data)
+
         super.onActivityResult(requestCode, resultCode, data)
 
         if (requestCode == go) {
@@ -199,5 +213,51 @@ class SignInActivity : AppCompatActivity() {
             googleClient.signOut()
             startActivityForResult(googleClient.signInIntent, this.go)
         //}
+    }
+
+    fun SignFacebook (view: View){
+
+        LoginManager.getInstance().logInWithReadPermissions(this, listOf("email"))
+
+        LoginManager.getInstance().registerCallback(callback,
+        object: FacebookCallback<LoginResult>{
+            override fun onSuccess(result: LoginResult) {
+
+                result?.let {
+                    val tokenFacebook = it.accessToken
+                    val credential: AuthCredential = FacebookAuthProvider.getCredential(tokenFacebook.token,)
+                    FirebaseAuth.getInstance().signInWithCredential(credential)
+                        .addOnCompleteListener {
+
+                            if (it.isSuccessful) {
+
+                                GoHome()
+
+                            } else {
+
+                                Alerts()
+                            }
+                        }
+
+                }
+            }
+
+            override fun onCancel() {
+
+            }
+
+            override fun onError(error: FacebookException) {
+                Alerts()
+            }
+
+        })
+
+
+    }
+
+    fun ForgetPass(view: View) {
+
+        val ventanaSiguiente: Intent = Intent(this, ForgetPassActivity::class.java)
+        startActivity(ventanaSiguiente)
     }
 }
