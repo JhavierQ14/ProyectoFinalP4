@@ -33,7 +33,7 @@ class ConfigActivity : AppCompatActivity() {
             } else{
 
                 AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
-                swiitch.text = "Activar modo oscuro"
+                swiitch.text = "Activar modo claro"
                 ivModo.setImageResource(R.drawable.modoclaro)
 
             }

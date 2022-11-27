@@ -2,13 +2,14 @@
 <resources>
     <color name="Gris">#363A43</color>
     <color name="black">#FF000000</color>
+    <color name="ic_iconescuela_background">#FCFFFD</color>
     <color name="purple_200">#FFBB86FC</color>
     <color name="purple_500">#FF6200EE</color>
     <color name="purple_700">#FF3700B3</color>
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
     <color name="white">#FFFFFFFF</color>
-    <string name="app_name">ProyectoFinalProgramacionIV</string>
+    <string name="app_name">VMT ES</string>
     <string name="default_web_client_id" translatable="false">933828037451-v4enrtio6d7kr0gkjd8farnvs2ntc4ft.apps.googleusercontent.com</string>
     <string name="gcm_defaultSenderId" translatable="false">933828037451</string>
     <string name="google_api_key" translatable="false">AIzaSyDR7lOAcBb4GNfC-FV_R5-585-7i3l2ddI</string>

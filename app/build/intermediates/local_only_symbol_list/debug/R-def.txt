@@ -2,6 +2,7 @@ R_DEF: Internal format may change without notice
 local
 color Gris
 color black
+color ic_iconescuela_background
 color purple_200
 color purple_500
 color purple_700
@@ -9,6 +10,7 @@ color teal_200
 color teal_700
 color white
 drawable background
+drawable card_bg
 drawable clasificacion
 drawable configuraciones
 drawable crucepeoton
@@ -24,20 +26,25 @@ drawable ic_baseline_info_24
 drawable ic_baseline_local_phone_24
 drawable ic_baseline_person_24
 drawable ic_baseline_person_pin_circle_24
+drawable ic_iconescuela_background
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable libros
 drawable modoclaro
 drawable modooscuro
+drawable option_bg
 drawable pasodepeatones
 drawable pea
 drawable peatonc
 drawable puntuacion
 drawable ranking
+drawable right_bg
 drawable testps
 drawable testteorico
 drawable usuario
 drawable usuario1
+drawable watch
+drawable wrong_bg
 id ActualizarPerfil
 id Login
 id NumRanking
@@ -58,6 +65,7 @@ id cardView2
 id cardView3
 id cardView4
 id cardView5
+id contador
 id despuesveo1
 id detalles
 id edtEmail
@@ -71,10 +79,15 @@ id imgSignFacebook
 id imgSignGoogle
 id ivModo
 id iv_image
+id option1
+id option2
+id option3
+id option4
 id otros
 id perfil_image
 id progreesBar
 id puntuacionLabel
+id questions
 id socialicons
 id swtich
 id textView
@@ -92,7 +105,11 @@ layout activity_design_home
 layout activity_perfil
 layout activity_question
 layout activity_sign_up
+layout activity_time_questions
 layout signin_main
+mipmap ic_iconescuela
+mipmap ic_iconescuela_foreground
+mipmap ic_iconescuela_round
 mipmap ic_launcher
 mipmap ic_launcher_round
 string app_name
