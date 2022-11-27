@@ -1,28 +1,25 @@
 package com.example.proyectofinalprogramacioniv
 
 import android.app.AlertDialog
-import android.content.ContentValues.TAG
 import android.content.Intent
-import android.content.IntentSender
 import android.os.Bundle
-import android.util.Log
 import android.view.View
 import android.widget.*
 import androidx.appcompat.app.AppCompatActivity
 import com.example.proyectofinalprogramacioniv.Domain.ClsAuthentication
 import com.google.android.gms.auth.api.identity.BeginSignInRequest
-import com.google.android.gms.auth.api.identity.Identity
 import com.google.android.gms.auth.api.identity.SignInClient
 import com.google.android.gms.auth.api.signin.GoogleSignIn
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount
 import com.google.android.gms.auth.api.signin.GoogleSignInClient
 import com.google.android.gms.auth.api.signin.GoogleSignInOptions
 import com.google.android.gms.common.api.ApiException
-import com.google.android.gms.common.api.CommonStatusCodes
 import com.google.android.gms.tasks.Task
 import com.google.firebase.analytics.FirebaseAnalytics
 import com.google.firebase.analytics.ktx.analytics
+import com.google.firebase.auth.AuthCredential
 import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.auth.GoogleAuthProvider
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
 
@@ -64,16 +61,39 @@ class SignInActivity : AppCompatActivity() {
 
         //Inicializando Metodos
         SignIn()
+        //SignInGoogle()
     }
 
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
         super.onActivityResult(requestCode, resultCode, data)
 
-        if (requestCode == go){
+        if (requestCode == go) {
 
-            val tas:Task<GoogleSignInAccount> = GoogleSignIn.getSignedInAccountFromIntent(data)
-            val acc: GoogleSignInAccount = tas.getResult(ApiException::class.java)
+            val tas: Task<GoogleSignInAccount> = GoogleSignIn.getSignedInAccountFromIntent(data)
 
+            try {
+                val account: GoogleSignInAccount = tas.getResult(ApiException::class.java)
+
+                if (account != null) {
+
+                    val credential: AuthCredential = GoogleAuthProvider.getCredential(account.idToken, null)
+                    FirebaseAuth.getInstance().signInWithCredential(credential)
+                        .addOnCompleteListener {
+
+                            if (it.isSuccessful) {
+
+                                GoHome()
+
+                            } else {
+
+                                Alerts()
+                            }
+                        }
+                }
+            }catch (e: ApiException){
+
+                Alerts()
+            }
         }
     }
 
@@ -91,11 +111,6 @@ class SignInActivity : AppCompatActivity() {
 
             GoHome()
         }
-        /*else{
-
-            val intent: Intent = Intent(applicationContext, SignInActivity::class.java)
-            startActivity(intent)
-        }*/
     }
 
     // Funciones ***********************************************************************************
@@ -112,6 +127,7 @@ class SignInActivity : AppCompatActivity() {
         startActivity(intent)
     }
 
+    //Metodo para mostrar alertas
     private fun Alerts() {
 
         val builder = AlertDialog.Builder(this)
@@ -170,28 +186,18 @@ class SignInActivity : AppCompatActivity() {
         }
     }
 
-    fun SignInGoogle(view: View){
+    // funcion para mostrar One Tap y obtener cuenta
+    fun SignInGoogle(view: View) {
 
-        /*oneTapClient.beginSignIn(signInRequest)
-            .addOnSuccessListener(this) { result ->
-                try {
-                    startIntentSenderForResult(
-                        result.pendingIntent.intentSender, REQ_ONE_TAP,
-                        null, 0, 0, 0, null)
-                } catch (e: IntentSender.SendIntentException) {
-                    Log.e(TAG, "Couldn't start One Tap UI: ${e.localizedMessage}")
-                }
-            }
-            .addOnFailureListener(this) { e ->
-                // No saved credentials found. Launch the One Tap sign-up flow, or
-                // do nothing and continue presenting the signed-out UI.
-                Log.d(TAG, e.localizedMessage)
-            }*/
-        val googleConfig: GoogleSignInOptions = GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
-            .requestIdToken(getString(R.string.default_web_client_id)).requestEmail().build()
+      //  signGoogleBtn.setOnClickListener {
 
-        val googleClient: GoogleSignInClient = GoogleSignIn.getClient(this, googleConfig)
+            val googleConfig: GoogleSignInOptions =
+                GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
+                    .requestIdToken(getString(R.string.default_web_client_id)).requestEmail().build()
 
-        startActivityForResult(googleClient.signInIntent, this.go)
+            val googleClient: GoogleSignInClient = GoogleSignIn.getClient(this, googleConfig)
+            googleClient.signOut()
+            startActivityForResult(googleClient.signInIntent, this.go)
+        //}
     }
 }
