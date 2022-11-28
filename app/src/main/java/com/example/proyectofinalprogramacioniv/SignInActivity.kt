@@ -12,8 +12,6 @@ import com.facebook.FacebookCallback
 import com.facebook.FacebookException
 import com.facebook.login.LoginManager
 import com.facebook.login.LoginResult
-import com.google.android.gms.auth.api.identity.BeginSignInRequest
-import com.google.android.gms.auth.api.identity.SignInClient
 import com.google.android.gms.auth.api.signin.GoogleSignIn
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount
 import com.google.android.gms.auth.api.signin.GoogleSignInClient
@@ -28,7 +26,6 @@ import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.GoogleAuthProvider
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
-import javax.security.auth.callback.Callback
 
 class SignInActivity : AppCompatActivity() {
 
@@ -43,16 +40,20 @@ class SignInActivity : AppCompatActivity() {
     //private lateinit var signFacebookBtn: ImageView
     private lateinit var btnForgetPas: TextView
 
-    private lateinit var oneTapClient: SignInClient
-    private lateinit var signInRequest: BeginSignInRequest
-    private val REQ_ONE_TAP = 2
-    private var showOneTapUI = true
+    // Variable para conocer estado de inicio de secion con google
     private var go = 100
-    private var callback = CallbackManager.Factory.create()
+
+    // variable de inicio de secion de facebook
+    private lateinit var callbackManager: CallbackManager
+
+    // estados de activity *************************************************************************
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.signin_main)
+
+        // Instancia de objeto callbackManager para gestionar las respuestas del inicio de sesión.
+        callbackManager = CallbackManager.Factory.create()
 
         // Obtain the FirebaseAnalytics instance.
         firebaseAnalytics = Firebase.analytics
@@ -60,7 +61,7 @@ class SignInActivity : AppCompatActivity() {
         // Initialize Firebase Auth
         auth = Firebase.auth
 
-        // Asignacion de eventos a variables Globales
+        // Asignacion de eventos a variables
         signInBtn = findViewById(R.id.btnSignIn)
         emailEdt = findViewById(R.id.edtEmail)
         passwordEdt = findViewById(R.id.edtPassword)
@@ -72,13 +73,11 @@ class SignInActivity : AppCompatActivity() {
 
         //Inicializando Metodos
         SignIn()
-        //SignInGoogle()
     }
 
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
 
-        callback.onActivityResult(requestCode,resultCode,data)
-
+        callbackManager.onActivityResult(requestCode, resultCode, data)
         super.onActivityResult(requestCode, resultCode, data)
 
         if (requestCode == go) {
@@ -217,42 +216,38 @@ class SignInActivity : AppCompatActivity() {
 
     fun SignFacebook (view: View){
 
-        LoginManager.getInstance().logInWithReadPermissions(this, listOf("email"))
+        LoginManager.getInstance().registerCallback(callbackManager,
+            object: FacebookCallback<LoginResult> {
+                override fun onSuccess(result: LoginResult) {
 
-        LoginManager.getInstance().registerCallback(callback,
-        object: FacebookCallback<LoginResult>{
-            override fun onSuccess(result: LoginResult) {
+                    result?.let {
+                        val tokenFacebook = it.accessToken
+                        val credential: AuthCredential = FacebookAuthProvider.getCredential(tokenFacebook.token,)
+                        FirebaseAuth.getInstance().signInWithCredential(credential)
+                            .addOnCompleteListener {
 
-                result?.let {
-                    val tokenFacebook = it.accessToken
-                    val credential: AuthCredential = FacebookAuthProvider.getCredential(tokenFacebook.token,)
-                    FirebaseAuth.getInstance().signInWithCredential(credential)
-                        .addOnCompleteListener {
+                                if (it.isSuccessful) {
 
-                            if (it.isSuccessful) {
+                                    GoHome()
 
-                                GoHome()
-
-                            } else {
-
-                                Alerts()
+                                } else {
+                                    Alerts()
+                                }
                             }
-                        }
+                    }
+                    //GoHome()
+                }
+
+                override fun onCancel() {
 
                 }
-            }
 
-            override fun onCancel() {
+                override fun onError(error: FacebookException) {
+                    Alerts()
+                }
+            })
 
-            }
-
-            override fun onError(error: FacebookException) {
-                Alerts()
-            }
-
-        })
-
-
+        LoginManager.getInstance().logInWithReadPermissions(this, listOf("public_profile"))
     }
 
     fun ForgetPass(view: View) {

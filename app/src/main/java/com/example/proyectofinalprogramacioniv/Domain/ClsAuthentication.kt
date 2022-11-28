@@ -1,5 +1,6 @@
 package com.example.proyectofinalprogramacioniv.Domain
 
+import com.facebook.login.LoginManager
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
@@ -53,5 +54,10 @@ class ClsAuthentication {
     fun SignOut(){
 
         Firebase.auth.signOut()
+        LoginManager.getInstance().logOut()
+    }
+
+    fun GetPerfil(){
+
     }
 }

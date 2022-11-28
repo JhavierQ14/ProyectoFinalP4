@@ -1,7 +1,8 @@
 <resources>
     <string name="app_name">VMT ES</string>
     <string name="prefs_files">com.example.proyectofinalprogramacioniv.PREFERENCE_FILE_KEY</string>
-    <string name="facebook_app_id">431208905893831</string>
-    <string name="fb_login_protocol_scheme">fb1234</string>
-    <string name="facebook_client_token">14fd963950672c1af72835be96fa6b78</string>
+
+    <string name="facebook_app_id">711470520007809</string>
+    <string name="fb_login_protocol_scheme">fb711470520007809</string>
+    <string name="facebook_client_token">caaa82f6f13217006a1d48fc565af949</string>
 </resources>
