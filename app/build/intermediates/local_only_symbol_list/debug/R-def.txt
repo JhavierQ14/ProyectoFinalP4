@@ -72,10 +72,10 @@ id detalles
 id edtEmail
 id edtEmailCambiarPass
 id edtEmailII
+id edtEmailUser
 id edtPassword
 id edtPasswordII
 id forgetPass
-id full_name
 id guideline2
 id imgSignFacebook
 id imgSignGoogle
@@ -95,6 +95,7 @@ id swtich
 id textView
 id textView3
 id tvGoSignUp
+id tvNameUser
 id tvTitleSignUp
 id tv_CambiarPass
 id tv_Progres

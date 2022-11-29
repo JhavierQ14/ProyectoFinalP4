@@ -17,7 +17,6 @@ class ConfigActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_config)
 
-
         val swiitch = findViewById<Switch>(R.id.swtich)
         val ivModo = findViewById<ImageView>(R.id.ivModo)
 
@@ -37,6 +36,7 @@ class ConfigActivity : AppCompatActivity() {
             }
 
         }
+
     }
 
     // Funciones ***********************************************************************************
@@ -65,6 +65,9 @@ class ConfigActivity : AppCompatActivity() {
 
         // Ejecucion de funcion SignIn()
         SignIn()
+
+        // Terminar la actividad
+
     }
 
 }

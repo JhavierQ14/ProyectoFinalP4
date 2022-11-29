@@ -2908,6 +2908,7 @@ id edittext_dropdown_noneditable
 id edtEmail
 id edtEmailCambiarPass
 id edtEmailII
+id edtEmailUser
 id edtPassword
 id edtPasswordII
 id elastic
@@ -2936,7 +2937,6 @@ id forever
 id forgetPass
 id fragment_container_view_tag
 id frost
-id full_name
 id fullscreen_header
 id ghost_view
 id ghost_view_holder
@@ -3227,6 +3227,7 @@ id transition_scene_layoutid_cache
 id transition_transform
 id triangle
 id tvGoSignUp
+id tvNameUser
 id tvTitleSignUp
 id tv_CambiarPass
 id tv_Progres
