@@ -2531,6 +2531,7 @@ drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
 drawable card_bg
+drawable cerrarsesion
 drawable clasificacion
 drawable com_facebook_auth_dialog_background
 drawable com_facebook_auth_dialog_cancel_background
@@ -2576,6 +2577,7 @@ drawable common_google_signin_btn_text_light_normal
 drawable common_google_signin_btn_text_light_normal_background
 drawable configuraciones
 drawable crucepeoton
+drawable custom_buttom
 drawable default_option_border_bg
 drawable design_fab_background
 drawable design_ic_visibility
@@ -2688,7 +2690,6 @@ id META
 id NO_DEBUG
 id NumRanking
 id RankingLabel
-id Regresarh
 id SHIFT
 id SHOW_ALL
 id SHOW_PATH

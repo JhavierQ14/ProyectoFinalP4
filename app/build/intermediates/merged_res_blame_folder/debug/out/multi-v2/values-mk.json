@@ -4,7 +4,7 @@
             "outputFile": "com.example.proyectofinalprogramacioniv.app-mergeDebugResources-38:/values-mk/values-mk.xml",
             "map": [
                 {
-                    "source": "/home/vde/.gradle/caches/transforms-3/5ce0af473c48993521c29719105ab8ec/transformed/play-services-base-18.0.1/res/values-mk/values.xml",
+                    "source": "C:\\Users\\jhavi\\.gradle\\caches\\transforms-3\\5ce0af473c48993521c29719105ab8ec\\transformed\\play-services-base-18.0.1\\res\\values-mk\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -21,7 +21,24 @@
                     }
                 },
                 {
-                    "source": "/home/vde/.gradle/caches/transforms-3/ad22e10b677be901525195700a2eb205/transformed/material-1.6.1/res/values-mk/values-mk.xml",
+                    "source": "C:\\Users\\jhavi\\.gradle\\caches\\transforms-3\\9999e22d5225eadbe0e50083808af282\\transformed\\core-1.8.0\\res\\values-mk\\values-mk.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "110",
+                        "startColumns": "4",
+                        "startOffsets": "10141",
+                        "endColumns": "100",
+                        "endOffsets": "10237"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\jhavi\\.gradle\\caches\\transforms-3\\ad22e10b677be901525195700a2eb205\\transformed\\material-1.6.1\\res\\values-mk\\values-mk.xml",
                     "from": {
                         "startLines": "2,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -40,24 +57,7 @@
                     }
                 },
                 {
-                    "source": "/home/vde/.gradle/caches/transforms-3/9999e22d5225eadbe0e50083808af282/transformed/core-1.8.0/res/values-mk/values-mk.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "110",
-                        "startColumns": "4",
-                        "startOffsets": "10141",
-                        "endColumns": "100",
-                        "endOffsets": "10237"
-                    }
-                },
-                {
-                    "source": "/home/vde/.gradle/caches/transforms-3/c3d30ccfc101e06532908abc5eca3269/transformed/appcompat-1.5.1/res/values-mk/values-mk.xml",
+                    "source": "C:\\Users\\jhavi\\.gradle\\caches\\transforms-3\\c3d30ccfc101e06532908abc5eca3269\\transformed\\appcompat-1.5.1\\res\\values-mk\\values-mk.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -74,7 +74,7 @@
                     }
                 },
                 {
-                    "source": "/home/vde/.gradle/caches/transforms-3/068d0fc262cabf087d87c486667dca4a/transformed/browser-1.4.0/res/values-mk/values-mk.xml",
+                    "source": "C:\\Users\\jhavi\\.gradle\\caches\\transforms-3\\068d0fc262cabf087d87c486667dca4a\\transformed\\browser-1.4.0\\res\\values-mk\\values-mk.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
@@ -91,7 +91,7 @@
                     }
                 },
                 {
-                    "source": "/home/vde/.gradle/caches/transforms-3/87b5ffcaeb39ea90f05835a7451d327d/transformed/play-services-basement-18.1.0/res/values-mk/values.xml",
+                    "source": "C:\\Users\\jhavi\\.gradle\\caches\\transforms-3\\87b5ffcaeb39ea90f05835a7451d327d\\transformed\\play-services-basement-18.1.0\\res\\values-mk\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",

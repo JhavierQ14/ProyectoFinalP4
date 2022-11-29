@@ -11,9 +11,11 @@ color teal_700
 color white
 drawable background
 drawable card_bg
+drawable cerrarsesion
 drawable clasificacion
 drawable configuraciones
 drawable crucepeoton
+drawable custom_buttom
 drawable default_option_border_bg
 drawable examenpsicologica
 drawable fblogo
@@ -49,7 +51,6 @@ id ActualizarPerfil
 id Login
 id NumRanking
 id RankingLabel
-id Regresarh
 id btnConfig
 id btnEnviarRespuesta
 id btnEstudiar
