@@ -32,56 +32,56 @@
         android:testOnly="true"
         android:theme="@style/Theme.ProyectoFinalProgramacionIV" >
         <activity
-            android:name="com.example.proyectofinalprogramacioniv.ForgetPassActivity"
+            android:name="com.example.proyectofinalprogramacioniv.UI.Activities.ForgetPassActivity"
             android:exported="false" >
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name="com.example.proyectofinalprogramacioniv.TimeQuestions"
+            android:name="com.example.proyectofinalprogramacioniv.UI.Activities.TimeQuestions"
             android:exported="false" >
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name="com.example.proyectofinalprogramacioniv.ConfigActivity"
+            android:name="com.example.proyectofinalprogramacioniv.UI.Activities.ConfigActivity"
             android:exported="false" >
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name="com.example.proyectofinalprogramacioniv.QuestionActivity"
+            android:name="com.example.proyectofinalprogramacioniv.UI.Activities.QuestionActivity"
             android:exported="false" >
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name="com.example.proyectofinalprogramacioniv.SignUpActivity"
+            android:name="com.example.proyectofinalprogramacioniv.UI.Activities.SignUpActivity"
             android:exported="false" >
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name="com.example.proyectofinalprogramacioniv.PerfilActivity"
+            android:name="com.example.proyectofinalprogramacioniv.UI.Activities.PerfilActivity"
             android:exported="false" >
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name="com.example.proyectofinalprogramacioniv.DesignHome"
+            android:name="com.example.proyectofinalprogramacioniv.UI.Activities.HomeActivity"
             android:exported="false" >
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name="com.example.proyectofinalprogramacioniv.SignInActivity"
+            android:name="com.example.proyectofinalprogramacioniv.UI.Activities.SignInActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

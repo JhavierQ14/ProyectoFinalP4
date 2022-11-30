@@ -1,4 +1,4 @@
-package com.example.proyectofinalprogramacioniv
+package com.example.proyectofinalprogramacioniv.UI.Activities
 
 data class ModelQuestion (val question:String,
                      val option1:String,

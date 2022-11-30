@@ -1,11 +1,8 @@
-package com.example.proyectofinalprogramacioniv
+package com.example.proyectofinalprogramacioniv.UI.Activities
 
-import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.View
-import android.widget.Button
-import android.widget.LinearLayout
+import com.example.proyectofinalprogramacioniv.R
 
 class QuestionActivity : AppCompatActivity() {
 

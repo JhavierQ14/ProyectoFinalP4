@@ -1,4 +1,4 @@
-package com.example.proyectofinalprogramacioniv
+package com.example.proyectofinalprogramacioniv.UI.Activities
 
 import android.app.AlertDialog
 import android.content.Intent
@@ -7,6 +7,7 @@ import android.view.View
 import android.widget.*
 import androidx.appcompat.app.AppCompatActivity
 import com.example.proyectofinalprogramacioniv.Domain.ClsAuthentication
+import com.example.proyectofinalprogramacioniv.R
 import com.facebook.CallbackManager
 import com.facebook.FacebookCallback
 import com.facebook.FacebookException
@@ -50,7 +51,7 @@ class SignInActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.signin_main)
+        setContentView(R.layout.activity_sign_in)
 
         // Instancia de objeto callbackManager para gestionar las respuestas del inicio de sesión.
         callbackManager = CallbackManager.Factory.create()
@@ -136,7 +137,7 @@ class SignInActivity : AppCompatActivity() {
 
     private fun GoHome() {
 
-        val intent: Intent = Intent(applicationContext, DesignHome::class.java)
+        val intent: Intent = Intent(applicationContext, HomeActivity::class.java)
         startActivity(intent)
     }
 

@@ -1,14 +1,14 @@
-package com.example.proyectofinalprogramacioniv
+package com.example.proyectofinalprogramacioniv.UI.Activities
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
-import android.widget.Button
 import android.widget.ImageView
 import android.widget.Switch
 import androidx.appcompat.app.AppCompatDelegate
 import com.example.proyectofinalprogramacioniv.Domain.ClsAuthentication
+import com.example.proyectofinalprogramacioniv.R
 
 class ConfigActivity : AppCompatActivity() {
 
@@ -50,7 +50,7 @@ class ConfigActivity : AppCompatActivity() {
 
     fun RegresarAlHomee(view: View) {
 
-        val ventanaSiguiente: Intent = Intent(this, DesignHome::class.java)
+        val ventanaSiguiente: Intent = Intent(this, HomeActivity::class.java)
         startActivity(ventanaSiguiente)
     }
 

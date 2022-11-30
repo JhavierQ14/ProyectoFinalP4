@@ -1,6 +1,5 @@
-package com.example.proyectofinalprogramacioniv
+package com.example.proyectofinalprogramacioniv.UI.Activities
 
-import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.CountDownTimer
@@ -8,6 +7,7 @@ import android.view.View
 import android.widget.Button
 import android.widget.TextView
 import android.widget.Toast
+import com.example.proyectofinalprogramacioniv.R
 import java.util.*
 import java.util.concurrent.TimeUnit
 import kotlin.collections.ArrayList

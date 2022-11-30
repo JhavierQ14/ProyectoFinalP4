@@ -40,6 +40,10 @@
         "source": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-debug-41:/mipmap-mdpi/ic_iconescuela.png"
     },
     {
+        "merged": "com.example.proyectofinalprogramacioniv.app-merged_res-40:/layout_activity_home.xml.flat",
+        "source": "com.example.proyectofinalprogramacioniv.app-main-42:/layout/activity_home.xml"
+    },
+    {
         "merged": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-merged_res-40:/mipmap-xhdpi_ic_iconescuela.png.flat",
         "source": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-debug-41:/mipmap-xhdpi/ic_iconescuela.png"
     },
@@ -110,6 +114,10 @@
     {
         "merged": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-merged_res-40:/drawable-v24_crucepeoton.png.flat",
         "source": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-main-42:/drawable-v24/crucepeoton.png"
+    },
+    {
+        "merged": "com.example.proyectofinalprogramacioniv.app-merged_res-40:/layout_activity_config.xml.flat",
+        "source": "com.example.proyectofinalprogramacioniv.app-main-42:/layout/activity_config.xml"
     },
     {
         "merged": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-merged_res-40:/mipmap-mdpi_ic_launcher.webp.flat",
@@ -244,6 +252,10 @@
         "source": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-main-42:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
+        "merged": "com.example.proyectofinalprogramacioniv.app-merged_res-40:/layout_activity_question.xml.flat",
+        "source": "com.example.proyectofinalprogramacioniv.app-main-42:/layout/activity_question.xml"
+    },
+    {
         "merged": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-merged_res-40:/mipmap-xhdpi_ic_launcher.webp.flat",
         "source": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-main-42:/mipmap-xhdpi/ic_launcher.webp"
     },
@@ -254,6 +266,10 @@
     {
         "merged": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-merged_res-40:/drawable_ic_iconescuela_background.xml.flat",
         "source": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-debug-41:/drawable/ic_iconescuela_background.xml"
+    },
+    {
+        "merged": "com.example.proyectofinalprogramacioniv.app-merged_res-40:/layout_activity_sign_in.xml.flat",
+        "source": "com.example.proyectofinalprogramacioniv.app-main-42:/layout/activity_sign_in.xml"
     },
     {
         "merged": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-merged_res-40:/drawable-v24_fblogo.png.flat",
@@ -288,6 +304,14 @@
         "source": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-main-42:/drawable-v24/modoclaro.png"
     },
     {
+        "merged": "com.example.proyectofinalprogramacioniv.app-merged_res-40:/layout_activity_forget_pass.xml.flat",
+        "source": "com.example.proyectofinalprogramacioniv.app-main-42:/layout/activity_forget_pass.xml"
+    },
+    {
+        "merged": "com.example.proyectofinalprogramacioniv.app-merged_res-40:/layout_activity_sign_up.xml.flat",
+        "source": "com.example.proyectofinalprogramacioniv.app-main-42:/layout/activity_sign_up.xml"
+    },
+    {
         "merged": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-merged_res-40:/mipmap-xhdpi_ic_iconescuela_foreground.png.flat",
         "source": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-debug-41:/mipmap-xhdpi/ic_iconescuela_foreground.png"
     },
@@ -310,5 +334,9 @@
     {
         "merged": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-merged_res-40:/layout_activity_config.xml.flat",
         "source": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-main-42:/layout/activity_config.xml"
+    },
+    {
+        "merged": "com.example.proyectofinalprogramacioniv.app-merged_res-40:/layout_activity_time_questions.xml.flat",
+        "source": "com.example.proyectofinalprogramacioniv.app-main-42:/layout/activity_time_questions.xml"
     }
 ]

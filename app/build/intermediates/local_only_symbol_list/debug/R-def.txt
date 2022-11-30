@@ -73,6 +73,8 @@ id edtEmail
 id edtEmailCambiarPass
 id edtEmailII
 id edtEmailUser
+id edtLastNameR
+id edtNameR
 id edtPassword
 id edtPasswordII
 id forgetPass
@@ -105,13 +107,13 @@ id tv_primeraOpcion
 id tv_segundaOpcion
 id tv_terceraOpcion
 layout activity_config
-layout activity_design_home
 layout activity_forget_pass
+layout activity_home
 layout activity_perfil
 layout activity_question
+layout activity_sign_in
 layout activity_sign_up
 layout activity_time_questions
-layout signin_main
 mipmap ic_iconescuela
 mipmap ic_iconescuela_foreground
 mipmap ic_iconescuela_round

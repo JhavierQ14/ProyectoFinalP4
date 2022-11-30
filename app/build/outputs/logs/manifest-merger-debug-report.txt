@@ -223,60 +223,60 @@ MERGED from [com.android.installreferrer:installreferrer:1.0] /home/vde/.gradle/
 		ADDED from /home/vde/Documents/GitHub/ProyectoFinalP4/app/src/main/AndroidManifest.xml:17:9-65
 	android:dataExtractionRules
 		ADDED from /home/vde/Documents/GitHub/ProyectoFinalP4/app/src/main/AndroidManifest.xml:11:9-65
-activity#com.example.proyectofinalprogramacioniv.ForgetPassActivity
+activity#com.example.proyectofinalprogramacioniv.UI.Activities.ForgetPassActivity
 ADDED from /home/vde/Documents/GitHub/ProyectoFinalP4/app/src/main/AndroidManifest.xml:21:9-27:20
 	android:exported
 		ADDED from /home/vde/Documents/GitHub/ProyectoFinalP4/app/src/main/AndroidManifest.xml:23:13-37
 	android:name
-		ADDED from /home/vde/Documents/GitHub/ProyectoFinalP4/app/src/main/AndroidManifest.xml:22:13-47
+		ADDED from /home/vde/Documents/GitHub/ProyectoFinalP4/app/src/main/AndroidManifest.xml:22:13-61
 meta-data#android.app.lib_name
 ADDED from /home/vde/Documents/GitHub/ProyectoFinalP4/app/src/main/AndroidManifest.xml:24:13-26:36
 	android:value
 		ADDED from /home/vde/Documents/GitHub/ProyectoFinalP4/app/src/main/AndroidManifest.xml:26:17-33
 	android:name
 		ADDED from /home/vde/Documents/GitHub/ProyectoFinalP4/app/src/main/AndroidManifest.xml:25:17-52
-activity#com.example.proyectofinalprogramacioniv.TimeQuestions
+activity#com.example.proyectofinalprogramacioniv.UI.Activities.TimeQuestions
 ADDED from /home/vde/Documents/GitHub/ProyectoFinalP4/app/src/main/AndroidManifest.xml:28:9-34:20
 	android:exported
 		ADDED from /home/vde/Documents/GitHub/ProyectoFinalP4/app/src/main/AndroidManifest.xml:30:13-37
 	android:name
-		ADDED from /home/vde/Documents/GitHub/ProyectoFinalP4/app/src/main/AndroidManifest.xml:29:13-42
-activity#com.example.proyectofinalprogramacioniv.ConfigActivity
+		ADDED from /home/vde/Documents/GitHub/ProyectoFinalP4/app/src/main/AndroidManifest.xml:29:13-56
+activity#com.example.proyectofinalprogramacioniv.UI.Activities.ConfigActivity
 ADDED from /home/vde/Documents/GitHub/ProyectoFinalP4/app/src/main/AndroidManifest.xml:35:9-41:20
 	android:exported
 		ADDED from /home/vde/Documents/GitHub/ProyectoFinalP4/app/src/main/AndroidManifest.xml:37:13-37
 	android:name
-		ADDED from /home/vde/Documents/GitHub/ProyectoFinalP4/app/src/main/AndroidManifest.xml:36:13-43
-activity#com.example.proyectofinalprogramacioniv.QuestionActivity
+		ADDED from /home/vde/Documents/GitHub/ProyectoFinalP4/app/src/main/AndroidManifest.xml:36:13-57
+activity#com.example.proyectofinalprogramacioniv.UI.Activities.QuestionActivity
 ADDED from /home/vde/Documents/GitHub/ProyectoFinalP4/app/src/main/AndroidManifest.xml:42:9-48:20
 	android:exported
 		ADDED from /home/vde/Documents/GitHub/ProyectoFinalP4/app/src/main/AndroidManifest.xml:44:13-37
 	android:name
-		ADDED from /home/vde/Documents/GitHub/ProyectoFinalP4/app/src/main/AndroidManifest.xml:43:13-45
-activity#com.example.proyectofinalprogramacioniv.SignUpActivity
+		ADDED from /home/vde/Documents/GitHub/ProyectoFinalP4/app/src/main/AndroidManifest.xml:43:13-59
+activity#com.example.proyectofinalprogramacioniv.UI.Activities.SignUpActivity
 ADDED from /home/vde/Documents/GitHub/ProyectoFinalP4/app/src/main/AndroidManifest.xml:49:9-55:20
 	android:exported
 		ADDED from /home/vde/Documents/GitHub/ProyectoFinalP4/app/src/main/AndroidManifest.xml:51:13-37
 	android:name
-		ADDED from /home/vde/Documents/GitHub/ProyectoFinalP4/app/src/main/AndroidManifest.xml:50:13-43
-activity#com.example.proyectofinalprogramacioniv.PerfilActivity
+		ADDED from /home/vde/Documents/GitHub/ProyectoFinalP4/app/src/main/AndroidManifest.xml:50:13-57
+activity#com.example.proyectofinalprogramacioniv.UI.Activities.PerfilActivity
 ADDED from /home/vde/Documents/GitHub/ProyectoFinalP4/app/src/main/AndroidManifest.xml:56:9-62:20
 	android:exported
 		ADDED from /home/vde/Documents/GitHub/ProyectoFinalP4/app/src/main/AndroidManifest.xml:58:13-37
 	android:name
-		ADDED from /home/vde/Documents/GitHub/ProyectoFinalP4/app/src/main/AndroidManifest.xml:57:13-43
-activity#com.example.proyectofinalprogramacioniv.DesignHome
+		ADDED from /home/vde/Documents/GitHub/ProyectoFinalP4/app/src/main/AndroidManifest.xml:57:13-57
+activity#com.example.proyectofinalprogramacioniv.UI.Activities.HomeActivity
 ADDED from /home/vde/Documents/GitHub/ProyectoFinalP4/app/src/main/AndroidManifest.xml:64:9-70:20
 	android:exported
 		ADDED from /home/vde/Documents/GitHub/ProyectoFinalP4/app/src/main/AndroidManifest.xml:66:13-37
 	android:name
-		ADDED from /home/vde/Documents/GitHub/ProyectoFinalP4/app/src/main/AndroidManifest.xml:65:13-39
-activity#com.example.proyectofinalprogramacioniv.SignInActivity
+		ADDED from /home/vde/Documents/GitHub/ProyectoFinalP4/app/src/main/AndroidManifest.xml:65:13-55
+activity#com.example.proyectofinalprogramacioniv.UI.Activities.SignInActivity
 ADDED from /home/vde/Documents/GitHub/ProyectoFinalP4/app/src/main/AndroidManifest.xml:72:9-84:20
 	android:exported
 		ADDED from /home/vde/Documents/GitHub/ProyectoFinalP4/app/src/main/AndroidManifest.xml:74:13-36
 	android:name
-		ADDED from /home/vde/Documents/GitHub/ProyectoFinalP4/app/src/main/AndroidManifest.xml:73:13-43
+		ADDED from /home/vde/Documents/GitHub/ProyectoFinalP4/app/src/main/AndroidManifest.xml:73:13-57
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
 ADDED from /home/vde/Documents/GitHub/ProyectoFinalP4/app/src/main/AndroidManifest.xml:75:13-79:29
 action#android.intent.action.MAIN

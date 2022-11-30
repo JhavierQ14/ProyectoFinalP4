@@ -1,4 +1,4 @@
-package com.example.proyectofinalprogramacioniv
+package com.example.proyectofinalprogramacioniv.UI.Activities
 
 import android.app.AlertDialog
 import android.content.Intent
@@ -8,6 +8,7 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import com.example.proyectofinalprogramacioniv.R
 import com.google.firebase.auth.FirebaseAuth
 
 class SignUpActivity : AppCompatActivity() {
@@ -30,7 +31,7 @@ class SignUpActivity : AppCompatActivity() {
     fun SignUp(v: View) {
 
         val email = emailEdt.text.toString()
-        val password = passwordEdt.text.toString()
+        var  password = passwordEdt.text.toString()
 
             if (email.isNotEmpty() && password.isNotEmpty()) {
 
@@ -54,7 +55,7 @@ class SignUpActivity : AppCompatActivity() {
     }
 
     private fun Home() {
-        val Login: Intent = Intent(this, DesignHome::class.java)
+        val Login: Intent = Intent(this, HomeActivity::class.java)
         startActivity(Login)
 
     }

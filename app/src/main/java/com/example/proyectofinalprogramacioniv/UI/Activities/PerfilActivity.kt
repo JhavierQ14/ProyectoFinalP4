@@ -1,9 +1,10 @@
-package com.example.proyectofinalprogramacioniv
+package com.example.proyectofinalprogramacioniv.UI.Activities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.EditText
 import android.widget.TextView
+import com.example.proyectofinalprogramacioniv.R
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
 
