@@ -12,7 +12,7 @@ import com.example.proyectofinalprogramacioniv.R
 import com.google.firebase.auth.FirebaseAuth
 
 class SignUpActivity : AppCompatActivity() {
-
+    private var db = FirebaseFirestore.getInstance()
     private lateinit var emailEdt: EditText
     private lateinit var passwordEdt: EditText
     private lateinit var signUpBtn: Button
@@ -39,7 +39,15 @@ class SignUpActivity : AppCompatActivity() {
                     .addOnCompleteListener {
 
                         if (it.isSuccessful) {
+                         db.collection("Users").document(email).set(
 
+                            hasMapOf("name" to name,
+                            "Apellido" to Apellido, 
+                            "email" to email,
+                            "password" to password,
+
+                            )
+                         )
                             Toast.makeText(this,"Registro exitoso",Toast.LENGTH_LONG).show()
                             Home()
 
@@ -68,5 +76,13 @@ class SignUpActivity : AppCompatActivity() {
         builder.setPositiveButton("Aceptar", null)
         val dialog: AlertDialog = builder.create()
         dialog.show()
+    }
+
+    private fun getInfo(){
+    db.collection("Users").document(email).get().addOnSuccessListener{
+        name.setText("name") has String?()
+        Apellido.setText(""Apellido) has String?()
+    }
+
     }
 }
