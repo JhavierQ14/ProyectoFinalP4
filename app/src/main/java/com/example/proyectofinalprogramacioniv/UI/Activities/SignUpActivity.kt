@@ -10,11 +10,14 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.example.proyectofinalprogramacioniv.R
 import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.firestore.FirebaseFirestore
 
 class SignUpActivity : AppCompatActivity() {
     private var db = FirebaseFirestore.getInstance()
     private lateinit var emailEdt: EditText
     private lateinit var passwordEdt: EditText
+    private lateinit var  lastNameEdt: EditText
+    private  lateinit var  nameEdt: EditText
     private lateinit var signUpBtn: Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -24,13 +27,15 @@ class SignUpActivity : AppCompatActivity() {
         emailEdt = findViewById(R.id.edtEmailII)
         passwordEdt = findViewById(R.id.edtPasswordII)
         signUpBtn = findViewById(R.id.btnSignUpI)
+        lastNameEdt = findViewById(R.id.edtLastNameR)
+        nameEdt = findViewById(R.id.edtNameR)
 
         //SignUp()
     }
 
     fun SignUp(v: View) {
 
-        val email = emailEdt.text.toString()
+        var email = emailEdt.text.toString()
         var  password = passwordEdt.text.toString()
 
             if (email.isNotEmpty() && password.isNotEmpty()) {
@@ -39,12 +44,13 @@ class SignUpActivity : AppCompatActivity() {
                     .addOnCompleteListener {
 
                         if (it.isSuccessful) {
-                         db.collection("Users").document(email).set(
+                        db.collection("Users").document(email).set(
 
-                            hasMapOf("name" to name,
-                            "Apellido" to Apellido, 
-                            "email" to email,
-                            "password" to password,
+                            hashMapOf("nameUser" to nameEdt.text.toString(),
+                            "lastNameUser" to lastNameEdt.text.toString(),
+                            "avatarUser" to "https://drive.google.com/file/d/1vovHfPW6mnOH7UkBVgDMvrbzhDlXiFCf/view?usp=share_link"
+
+
 
                             )
                          )
@@ -78,11 +84,11 @@ class SignUpActivity : AppCompatActivity() {
         dialog.show()
     }
 
-    private fun getInfo(){
+  /*  private fun getInfo(){
     db.collection("Users").document(email).get().addOnSuccessListener{
         name.setText("name") has String?()
         Apellido.setText(""Apellido) has String?()
     }
 
-    }
+    }*/
 }

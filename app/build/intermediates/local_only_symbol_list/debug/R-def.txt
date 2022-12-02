@@ -16,6 +16,7 @@ drawable clasificacion
 drawable configuraciones
 drawable crucepeoton
 drawable custom_buttom
+drawable custombuttonsingup
 drawable default_option_border_bg
 drawable examenpsicologica
 drawable fblogo
@@ -45,6 +46,8 @@ drawable testps
 drawable testteorico
 drawable usuario
 drawable usuario1
+drawable usuario123
+drawable verificar1
 drawable watch
 drawable wrong_bg
 id ActualizarPerfil
@@ -74,7 +77,9 @@ id edtEmailCambiarPass
 id edtEmailII
 id edtEmailUser
 id edtLastNameR
+id edtLastNameUser
 id edtNameR
+id edtNombreUser
 id edtPassword
 id edtPasswordII
 id forgetPass
@@ -88,7 +93,7 @@ id option2
 id option3
 id option4
 id otros
-id perfil_image
+id perfilimage
 id progreesBar
 id puntuacionLabel
 id questions
@@ -106,6 +111,7 @@ id tv_pregunta
 id tv_primeraOpcion
 id tv_segundaOpcion
 id tv_terceraOpcion
+id tvemailUser
 layout activity_config
 layout activity_forget_pass
 layout activity_home

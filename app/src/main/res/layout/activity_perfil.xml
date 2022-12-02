@@ -10,136 +10,42 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="300dp"
-        android:padding="20dp"
-        android:background="@color/white">
+        android:background="@color/white"
+        android:padding="20dp">
 
         <ImageView
-            android:id="@+id/perfil_image"
+            android:id="@+id/perfilimage"
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:src="@drawable/usuario"
-            android:layout_centerVertical="true"/>
+            android:layout_centerVertical="true"
+            android:src="@drawable/usuario" />
 
         <TextView
             android:id="@+id/tvNameUser"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Carlos Javier"
-            android:textSize="20sp"
-            android:fontFamily="sans-serif-black"
-            android:layout_toRightOf="@+id/perfil_image"
             android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@+id/perfilimage"
+            android:fontFamily="sans-serif-black"
             android:includeFontPadding="false"
-            android:layout_marginLeft="20dp"/>
+            android:text="Carlos Javier"
+            android:textSize="20sp" />
 
 
         <TextView
+            android:id="@+id/tvemailUser"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Carlos Vasquez"
-            android:includeFontPadding="false"
-            android:textSize="14sp"
-            android:layout_toRightOf="@+id/perfil_image"
             android:layout_below="@id/tvNameUser"
-            android:layout_marginLeft="20dp"/>
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@+id/perfilimage"
+            android:includeFontPadding="false"
+            android:text="Carlos Vasquez"
+            android:textSize="14sp" />
 
     </RelativeLayout>
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:padding="20dp"
-        android:layout_marginTop="-100dp">
-
-        <com.google.android.material.card.MaterialCardView
-            android:layout_width="0dp"
-            android:layout_height="125dp"
-            android:layout_weight="1"
-            app:cardBackgroundColor="@color/white"
-            app:cardElevation="10dp"
-            android:layout_margin="10dp">
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:padding="5dp">
-
-                <ImageView
-                    android:layout_width="40dp"
-                    android:layout_height="40dp"
-                    android:src="@drawable/puntuacion"
-                    android:layout_centerHorizontal="true"/>
-
-                <TextView
-                    android:id="@+id/puntuacionLabel"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_centerInParent="true"
-                    android:fontFamily="sans-serif-black"
-                    android:includeFontPadding="false"
-                    android:text="Notas"
-                    android:textSize="20sp" />
-
-                <TextView
-                    android:id="@+id/despuesveo1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="10"
-                    android:includeFontPadding="false"
-                    android:textSize="14sp"
-                    android:fontFamily="sans-serif"
-                    android:layout_below="@id/puntuacionLabel"
-                    android:layout_centerHorizontal="true"/>
-
-            </RelativeLayout>
-
-        </com.google.android.material.card.MaterialCardView>
-
-        <com.google.android.material.card.MaterialCardView
-            android:layout_width="0dp"
-            android:layout_height="125dp"
-            android:layout_weight="1"
-            app:cardBackgroundColor="@color/white"
-            app:cardElevation="10dp"
-            android:layout_margin="10dp">
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:padding="5dp">
-
-                <ImageView
-                    android:layout_width="40dp"
-                    android:layout_height="40dp"
-                    android:src="@drawable/ranking"
-                    android:layout_centerHorizontal="true"/>
-
-                <TextView
-                    android:id="@+id/RankingLabel"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Ranking"
-                    android:includeFontPadding="false"
-                    android:textSize="20sp"
-                    android:fontFamily="sans-serif-black"
-                    android:layout_centerInParent="true"/>
-
-                <TextView
-                    android:id="@+id/NumRanking"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Top 10"
-                    android:includeFontPadding="false"
-                    android:textSize="20sp"
-                    android:fontFamily="sans-serif"
-                    android:layout_below="@id/RankingLabel"
-                    android:layout_centerHorizontal="true"/>
-
-            </RelativeLayout>
-
-        </com.google.android.material.card.MaterialCardView>
-
-
-
-    </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -150,34 +56,37 @@
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint=" Nombre completo"
+            android:hint=" Nombres"
             android:layout_marginBottom="10dp">
 
 
-            <com.google.android.material.textfield.TextInputEditText
+        <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edtNombreUser"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:drawableLeft="@drawable/ic_baseline_person_pin_circle_24"
                 android:drawablePadding="10dp"
-                android:text="Carlos Javier Jimenez Vasquez"/>
-
-
+                android:text="Carlos Javier "/>
 
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Email"
+            android:hint=" Apellidos"
             android:layout_marginBottom="10dp">
 
+
             <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/edtEmailUser"
+                android:id="@+id/edtLastNameUser"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:drawableLeft="@drawable/ic_baseline_email_24"
+                android:drawableLeft="@drawable/ic_baseline_person_pin_circle_24"
                 android:drawablePadding="10dp"
-                android:text="Carlos14@gmail.com"/>
+                android:text=" Jimenez Vasquez"/>
+
+
+
         </com.google.android.material.textfield.TextInputLayout>
 
 

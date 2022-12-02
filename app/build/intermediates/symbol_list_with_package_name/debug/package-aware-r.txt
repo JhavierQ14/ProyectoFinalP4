@@ -2578,6 +2578,7 @@ drawable common_google_signin_btn_text_light_normal_background
 drawable configuraciones
 drawable crucepeoton
 drawable custom_buttom
+drawable custombuttonsingup
 drawable default_option_border_bg
 drawable design_fab_background
 drawable design_ic_visibility
@@ -2677,6 +2678,8 @@ drawable tooltip_frame_dark
 drawable tooltip_frame_light
 drawable usuario
 drawable usuario1
+drawable usuario123
+drawable verificar1
 drawable watch
 drawable wrong_bg
 id ALT
@@ -2910,7 +2913,9 @@ id edtEmailCambiarPass
 id edtEmailII
 id edtEmailUser
 id edtLastNameR
+id edtLastNameUser
 id edtNameR
+id edtNombreUser
 id edtPassword
 id edtPasswordII
 id elastic
@@ -3091,7 +3096,7 @@ id path
 id pathRelative
 id peekHeight
 id percent
-id perfil_image
+id perfilimage
 id pin
 id position
 id postLayout
@@ -3238,6 +3243,7 @@ id tv_pregunta
 id tv_primeraOpcion
 id tv_segundaOpcion
 id tv_terceraOpcion
+id tvemailUser
 id unchecked
 id uniform
 id unknown
