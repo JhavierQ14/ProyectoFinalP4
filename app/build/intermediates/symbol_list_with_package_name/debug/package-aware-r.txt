@@ -2683,7 +2683,6 @@ drawable verificar1
 drawable watch
 drawable wrong_bg
 id ALT
-id ActualizarPerfil
 id BOTTOM_END
 id BOTTOM_START
 id CTRL
@@ -2691,8 +2690,6 @@ id FUNCTION
 id Login
 id META
 id NO_DEBUG
-id NumRanking
-id RankingLabel
 id SHIFT
 id SHOW_ALL
 id SHOW_PATH
@@ -2804,6 +2801,7 @@ id btnQuestionT
 id btnSignIn
 id btnSignOut
 id btnSignUpI
+id btnUpdateInfoUser
 id button
 id buttonPanel
 id cache_measures
@@ -2879,7 +2877,6 @@ id design_menu_item_action_area
 id design_menu_item_action_area_stub
 id design_menu_item_text
 id design_navigation_view
-id despuesveo1
 id detalles
 id dialog_button
 id dimensions
@@ -2911,7 +2908,6 @@ id edittext_dropdown_noneditable
 id edtEmail
 id edtEmailCambiarPass
 id edtEmailII
-id edtEmailUser
 id edtLastNameR
 id edtLastNameUser
 id edtNameR
@@ -3053,6 +3049,13 @@ id mtrl_picker_text_input_range_start
 id mtrl_picker_title_text
 id mtrl_view_tag_bottom_padding
 id multiply
+id myInicio
+id myMensaje
+id myPerfil
+id nav_Camara
+id nav_Galeria
+id nav_Inicio
+id nav_Mensaje
 id navigation_bar_item_active_indicator_view
 id navigation_bar_item_icon_container
 id navigation_bar_item_icon_view
@@ -3104,7 +3107,6 @@ id progreesBar
 id progress_bar
 id progress_circular
 id progress_horizontal
-id puntuacionLabel
 id questions
 id radio
 id ratio
@@ -3482,6 +3484,8 @@ layout text_view_with_line_height_from_layout
 layout text_view_with_line_height_from_style
 layout text_view_with_theme_line_height
 layout text_view_without_line_height
+menu bottom_nav_menu
+menu drawer_nav_menu
 mipmap ic_iconescuela
 mipmap ic_iconescuela_foreground
 mipmap ic_iconescuela_round

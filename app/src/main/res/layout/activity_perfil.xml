@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".UI.Activities.PerfilActivity"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    tools:context=".UI.Activities.PerfilActivity">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -46,7 +46,6 @@
 
     </RelativeLayout>
 
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -60,7 +59,7 @@
             android:layout_marginBottom="10dp">
 
 
-        <com.google.android.material.textfield.TextInputEditText
+            <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/edtNombreUser"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -76,7 +75,6 @@
             android:hint=" Apellidos"
             android:layout_marginBottom="10dp">
 
-
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/edtLastNameUser"
                 android:layout_width="match_parent"
@@ -85,21 +83,18 @@
                 android:drawablePadding="10dp"
                 android:text=" Jimenez Vasquez"/>
 
-
-
         </com.google.android.material.textfield.TextInputLayout>
 
-
         <Button
-            android:id="@+id/ActualizarPerfil"
+            android:id="@+id/btnUpdateInfoUser"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Actualizar"
+            android:background="@color/white"
             android:fontFamily="sans-serif"
-            android:background="@color/white">
+            android:onClick="Loquesea"
+            android:text="Actualizar">
 
         </Button>
-
 
     </LinearLayout>
 

@@ -1,330 +1,334 @@
 [
     {
-        "merged": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-merged_res-40:\\mipmap-anydpi-v26_ic_iconescuela.xml.flat",
-        "source": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-debug-41:\\mipmap-anydpi-v26\\ic_iconescuela.xml"
+        "merged": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-merged_res-46:/mipmap-xxxhdpi_ic_iconescuela.png.flat",
+        "source": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-debug-47:/mipmap-xxxhdpi/ic_iconescuela.png"
     },
     {
-        "merged": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-merged_res-40:\\mipmap-mdpi_ic_iconescuela_foreground.png.flat",
-        "source": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-debug-41:\\mipmap-mdpi\\ic_iconescuela_foreground.png"
+        "merged": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-merged_res-46:/drawable-v24_historial.png.flat",
+        "source": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-main-48:/drawable-v24/historial.png"
     },
     {
-        "merged": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-merged_res-40:\\layout_activity_config.xml.flat",
-        "source": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-main-42:\\layout\\activity_config.xml"
+        "merged": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-merged_res-46:/drawable-v24_ranking.png.flat",
+        "source": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-main-48:/drawable-v24/ranking.png"
     },
     {
-        "merged": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-merged_res-40:\\drawable-v24_modooscuro.png.flat",
-        "source": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-main-42:\\drawable-v24\\modooscuro.png"
+        "merged": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-merged_res-46:/drawable-v24_modoclaro.png.flat",
+        "source": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-main-48:/drawable-v24/modoclaro.png"
     },
     {
-        "merged": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-merged_res-40:\\drawable-v24_libros.png.flat",
-        "source": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-main-42:\\drawable-v24\\libros.png"
+        "merged": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-merged_res-46:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-main-48:/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-merged_res-40:\\drawable-v24_cerrarsesion.png.flat",
-        "source": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-main-42:\\drawable-v24\\cerrarsesion.png"
+        "merged": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-merged_res-46:/menu_drawer_nav_menu.xml.flat",
+        "source": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-debug-47:/menu/drawer_nav_menu.xml"
     },
     {
-        "merged": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-merged_res-40:\\drawable-v24_crucepeoton.png.flat",
-        "source": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-main-42:\\drawable-v24\\crucepeoton.png"
+        "merged": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-merged_res-46:/mipmap-xxhdpi_ic_iconescuela.png.flat",
+        "source": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-debug-47:/mipmap-xxhdpi/ic_iconescuela.png"
     },
     {
-        "merged": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-merged_res-40:\\drawable-v24_configuraciones.png.flat",
-        "source": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-main-42:\\drawable-v24\\configuraciones.png"
+        "merged": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-merged_res-46:/menu_bottom_nav_menu.xml.flat",
+        "source": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-debug-47:/menu/bottom_nav_menu.xml"
     },
     {
-        "merged": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-merged_res-40:\\layout_activity_sign_in.xml.flat",
-        "source": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-main-42:\\layout\\activity_sign_in.xml"
+        "merged": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-merged_res-46:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-main-48:/mipmap-mdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-merged_res-40:\\drawable-v24_examenpsicologica.png.flat",
-        "source": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-main-42:\\drawable-v24\\examenpsicologica.png"
+        "merged": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-merged_res-46:/mipmap-hdpi_ic_iconescuela.png.flat",
+        "source": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-debug-47:/mipmap-hdpi/ic_iconescuela.png"
     },
     {
-        "merged": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-merged_res-40:\\drawable-v24_historial.png.flat",
-        "source": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-main-42:\\drawable-v24\\historial.png"
+        "merged": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-merged_res-46:/drawable_ic_baseline_person_24.xml.flat",
+        "source": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-main-48:/drawable/ic_baseline_person_24.xml"
     },
     {
-        "merged": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-merged_res-40:\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-pngs-35:\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+        "merged": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-merged_res-46:/drawable_wrong_bg.xml.flat",
+        "source": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-main-48:/drawable/wrong_bg.xml"
     },
     {
-        "merged": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-merged_res-40:\\layout_activity_forget_pass.xml.flat",
-        "source": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-main-42:\\layout\\activity_forget_pass.xml"
+        "merged": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-merged_res-46:/mipmap-hdpi_ic_iconescuela_foreground.png.flat",
+        "source": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-debug-47:/mipmap-hdpi/ic_iconescuela_foreground.png"
     },
     {
-        "merged": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-merged_res-40:\\drawable-v24_clasificacion.png.flat",
-        "source": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-main-42:\\drawable-v24\\clasificacion.png"
+        "merged": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-merged_res-46:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-main-48:/mipmap-xxxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-merged_res-40:\\mipmap-xxhdpi_ic_iconescuela_round.png.flat",
-        "source": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-debug-41:\\mipmap-xxhdpi\\ic_iconescuela_round.png"
+        "merged": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-merged_res-46:/drawable_ic_baseline_local_phone_24.xml.flat",
+        "source": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-main-48:/drawable/ic_baseline_local_phone_24.xml"
     },
     {
-        "merged": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-merged_res-40:\\drawable-v24_watch.png.flat",
-        "source": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-main-42:\\drawable-v24\\watch.png"
+        "merged": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-merged_res-46:/drawable-v24_usuario1.png.flat",
+        "source": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-main-48:/drawable-v24/usuario1.png"
     },
     {
-        "merged": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-merged_res-40:\\layout_activity_question.xml.flat",
-        "source": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-main-42:\\layout\\activity_question.xml"
+        "merged": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-merged_res-46:/drawable-v24_modooscuro.png.flat",
+        "source": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-main-48:/drawable-v24/modooscuro.png"
     },
     {
-        "merged": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-merged_res-40:\\mipmap-xhdpi_ic_iconescuela.png.flat",
-        "source": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-debug-41:\\mipmap-xhdpi\\ic_iconescuela.png"
+        "merged": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-merged_res-46:/drawable-v24_testteorico.png.flat",
+        "source": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-main-48:/drawable-v24/testteorico.png"
     },
     {
-        "merged": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-merged_res-40:\\mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-main-42:\\mipmap-mdpi\\ic_launcher_round.webp"
+        "merged": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-merged_res-46:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-main-48:/mipmap-xxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.proyectofinalprogramacioniv.app-merged_res-40:/drawable_custombuttonsingup.xml.flat",
-        "source": "com.example.proyectofinalprogramacioniv.app-main-42:/drawable/custombuttonsingup.xml"
+        "merged": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-merged_res-46:/drawable_option_bg.xml.flat",
+        "source": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-main-48:/drawable/option_bg.xml"
     },
     {
-        "merged": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-merged_res-40:\\drawable_ic_iconescuela_background.xml.flat",
-        "source": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-debug-41:\\drawable\\ic_iconescuela_background.xml"
+        "merged": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-merged_res-46:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-main-48:/mipmap-mdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-merged_res-40:\\drawable_ic_baseline_local_phone_24.xml.flat",
-        "source": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-main-42:\\drawable\\ic_baseline_local_phone_24.xml"
+        "merged": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-merged_res-46:/layout_activity_config.xml.flat",
+        "source": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-main-48:/layout/activity_config.xml"
     },
     {
-        "merged": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-merged_res-40:\\drawable-v24_peatonc.png.flat",
-        "source": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-main-42:\\drawable-v24\\peatonc.png"
+        "merged": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-merged_res-46:/mipmap-xhdpi_ic_iconescuela_round.png.flat",
+        "source": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-debug-47:/mipmap-xhdpi/ic_iconescuela_round.png"
     },
     {
-        "merged": "com.example.proyectofinalprogramacioniv.app-merged_res-40:/drawable-v24_usuario123.png.flat",
-        "source": "com.example.proyectofinalprogramacioniv.app-main-42:/drawable-v24/usuario123.png"
+        "merged": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-merged_res-46:/drawable-v24_pasodepeatones.png.flat",
+        "source": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-main-48:/drawable-v24/pasodepeatones.png"
     },
     {
-        "merged": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-merged_res-40:\\drawable_ic_baseline_alternate_email_24.xml.flat",
-        "source": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-main-42:\\drawable\\ic_baseline_alternate_email_24.xml"
+        "merged": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-merged_res-46:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-main-48:/mipmap-xxxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-merged_res-40:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-main-42:\\mipmap-xxxhdpi\\ic_launcher.webp"
+        "merged": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-merged_res-46:/drawable-v24_verificar1.png.flat",
+        "source": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-main-48:/drawable-v24/verificar1.png"
     },
     {
-        "merged": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-merged_res-40:\\mipmap-hdpi_ic_iconescuela.png.flat",
-        "source": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-debug-41:\\mipmap-hdpi\\ic_iconescuela.png"
+        "merged": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-merged_res-46:/drawable_ic_baseline_info_24.xml.flat",
+        "source": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-main-48:/drawable/ic_baseline_info_24.xml"
     },
     {
-        "merged": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-merged_res-40:\\xml_data_extraction_rules.xml.flat",
-        "source": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-main-42:\\xml\\data_extraction_rules.xml"
+        "merged": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-merged_res-46:/drawable_custombuttonsingup.xml.flat",
+        "source": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-main-48:/drawable/custombuttonsingup.xml"
     },
     {
-        "merged": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-merged_res-40:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-main-42:\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-merged_res-46:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-pngs-41:/drawable-anydpi-v24/ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-merged_res-40:\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-main-42:\\mipmap-xhdpi\\ic_launcher.webp"
+        "merged": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-merged_res-46:/mipmap-xhdpi_ic_iconescuela.png.flat",
+        "source": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-debug-47:/mipmap-xhdpi/ic_iconescuela.png"
     },
     {
-        "merged": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-merged_res-40:\\drawable_wrong_bg.xml.flat",
-        "source": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-main-42:\\drawable\\wrong_bg.xml"
+        "merged": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-merged_res-46:/mipmap-xxhdpi_ic_iconescuela_foreground.png.flat",
+        "source": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-debug-47:/mipmap-xxhdpi/ic_iconescuela_foreground.png"
     },
     {
-        "merged": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-merged_res-40:\\drawable-v24_usuario.png.flat",
-        "source": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-main-42:\\drawable-v24\\usuario.png"
+        "merged": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-merged_res-46:/drawable-v24_peatonc.png.flat",
+        "source": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-main-48:/drawable-v24/peatonc.png"
     },
     {
-        "merged": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-merged_res-40:\\drawable-v24_modoclaro.png.flat",
-        "source": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-main-42:\\drawable-v24\\modoclaro.png"
+        "merged": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-merged_res-46:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-main-48:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-merged_res-40:\\drawable_default_option_border_bg.xml.flat",
-        "source": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-main-42:\\drawable\\default_option_border_bg.xml"
+        "merged": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-merged_res-46:/layout_activity_sign_in.xml.flat",
+        "source": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-main-48:/layout/activity_sign_in.xml"
     },
     {
-        "merged": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-merged_res-40:\\drawable-v24_fblogo.png.flat",
-        "source": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-main-42:\\drawable-v24\\fblogo.png"
+        "merged": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-merged_res-46:/drawable_default_option_border_bg.xml.flat",
+        "source": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-main-48:/drawable/default_option_border_bg.xml"
     },
     {
-        "merged": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-merged_res-40:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-main-42:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-merged_res-46:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-main-48:/mipmap-hdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-merged_res-40:\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-main-42:\\mipmap-hdpi\\ic_launcher.webp"
+        "merged": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-merged_res-46:/drawable_ic_launcher_background.xml.flat",
+        "source": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-main-48:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-merged_res-40:\\mipmap-hdpi_ic_iconescuela_foreground.png.flat",
-        "source": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-debug-41:\\mipmap-hdpi\\ic_iconescuela_foreground.png"
+        "merged": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-merged_res-46:/mipmap-xhdpi_ic_iconescuela_foreground.png.flat",
+        "source": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-debug-47:/mipmap-xhdpi/ic_iconescuela_foreground.png"
     },
     {
-        "merged": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-merged_res-40:\\drawable_option_bg.xml.flat",
-        "source": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-main-42:\\drawable\\option_bg.xml"
+        "merged": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-merged_res-46:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-main-48:/mipmap-xhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-merged_res-40:\\mipmap-xxxhdpi_ic_iconescuela.png.flat",
-        "source": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-debug-41:\\mipmap-xxxhdpi\\ic_iconescuela.png"
+        "merged": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-merged_res-46:/drawable-v24_usuario.png.flat",
+        "source": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-main-48:/drawable-v24/usuario.png"
     },
     {
-        "merged": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-merged_res-40:\\layout_activity_perfil.xml.flat",
-        "source": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-main-42:\\layout\\activity_perfil.xml"
+        "merged": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-merged_res-46:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-main-48:/mipmap-xhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-merged_res-40:\\mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-main-42:\\mipmap-mdpi\\ic_launcher.webp"
+        "merged": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-merged_res-46:/drawable-v24_fblogo.png.flat",
+        "source": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-main-48:/drawable-v24/fblogo.png"
     },
     {
-        "merged": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-merged_res-40:\\drawable-v24_google.png.flat",
-        "source": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-main-42:\\drawable-v24\\google.png"
+        "merged": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-merged_res-46:/drawable_right_bg.xml.flat",
+        "source": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-main-48:/drawable/right_bg.xml"
     },
     {
-        "merged": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-merged_res-40:\\mipmap-xxxhdpi_ic_iconescuela_foreground.png.flat",
-        "source": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-debug-41:\\mipmap-xxxhdpi\\ic_iconescuela_foreground.png"
+        "merged": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-merged_res-46:/drawable_custom_buttom.xml.flat",
+        "source": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-main-48:/drawable/custom_buttom.xml"
     },
     {
-        "merged": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-merged_res-40:\\drawable-v24_usuario1.png.flat",
-        "source": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-main-42:\\drawable-v24\\usuario1.png"
+        "merged": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-merged_res-46:/drawable-v24_puntuacion.png.flat",
+        "source": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-main-48:/drawable-v24/puntuacion.png"
     },
     {
-        "merged": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-merged_res-40:\\drawable-v24_ranking.png.flat",
-        "source": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-main-42:\\drawable-v24\\ranking.png"
+        "merged": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-merged_res-46:/drawable-v24_background.png.flat",
+        "source": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-main-48:/drawable-v24/background.png"
     },
     {
-        "merged": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-merged_res-40:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-main-42:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+        "merged": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-merged_res-46:/xml_backup_rules.xml.flat",
+        "source": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-main-48:/xml/backup_rules.xml"
     },
     {
-        "merged": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-merged_res-40:\\mipmap-xxhdpi_ic_iconescuela.png.flat",
-        "source": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-debug-41:\\mipmap-xxhdpi\\ic_iconescuela.png"
+        "merged": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-merged_res-46:/drawable_ic_baseline_alternate_email_24.xml.flat",
+        "source": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-main-48:/drawable/ic_baseline_alternate_email_24.xml"
     },
     {
-        "merged": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-merged_res-40:\\layout_activity_time_questions.xml.flat",
-        "source": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-main-42:\\layout\\activity_time_questions.xml"
+        "merged": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-merged_res-46:/xml_data_extraction_rules.xml.flat",
+        "source": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-main-48:/xml/data_extraction_rules.xml"
     },
     {
-        "merged": "com.example.proyectofinalprogramacioniv.app-merged_res-40:/drawable-v24_verificar1.png.flat",
-        "source": "com.example.proyectofinalprogramacioniv.app-main-42:/drawable-v24/verificar1.png"
+        "merged": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-merged_res-46:/drawable-v24_crucepeoton.png.flat",
+        "source": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-main-48:/drawable-v24/crucepeoton.png"
     },
     {
-        "merged": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-merged_res-40:\\mipmap-anydpi-v26_ic_iconescuela_round.xml.flat",
-        "source": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-debug-41:\\mipmap-anydpi-v26\\ic_iconescuela_round.xml"
+        "merged": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-merged_res-46:/layout_activity_perfil.xml.flat",
+        "source": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-main-48:/layout/activity_perfil.xml"
     },
     {
-        "merged": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-merged_res-40:\\drawable-v24_pasodepeatones.png.flat",
-        "source": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-main-42:\\drawable-v24\\pasodepeatones.png"
+        "merged": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-merged_res-46:/drawable_ic_baseline_person_pin_circle_24.xml.flat",
+        "source": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-main-48:/drawable/ic_baseline_person_pin_circle_24.xml"
     },
     {
-        "merged": "com.example.proyectofinalprogramacioniv.app-merged_res-40:/layout_activity_perfil.xml.flat",
-        "source": "com.example.proyectofinalprogramacioniv.app-main-42:/layout/activity_perfil.xml"
+        "merged": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-merged_res-46:/layout_activity_sign_up.xml.flat",
+        "source": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-main-48:/layout/activity_sign_up.xml"
     },
     {
-        "merged": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-merged_res-40:\\mipmap-xxhdpi_ic_iconescuela_foreground.png.flat",
-        "source": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-debug-41:\\mipmap-xxhdpi\\ic_iconescuela_foreground.png"
+        "merged": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-merged_res-46:/drawable-v24_watch.png.flat",
+        "source": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-main-48:/drawable-v24/watch.png"
     },
     {
-        "merged": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-merged_res-40:\\mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-main-42:\\mipmap-hdpi\\ic_launcher_round.webp"
+        "merged": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-merged_res-46:/drawable-v24_cerrarsesion.png.flat",
+        "source": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-main-48:/drawable-v24/cerrarsesion.png"
     },
     {
-        "merged": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-merged_res-40:\\drawable_card_bg.xml.flat",
-        "source": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-main-42:\\drawable\\card_bg.xml"
+        "merged": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-merged_res-46:/layout_activity_question.xml.flat",
+        "source": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-main-48:/layout/activity_question.xml"
     },
     {
-        "merged": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-merged_res-40:\\drawable-v24_testteorico.png.flat",
-        "source": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-main-42:\\drawable-v24\\testteorico.png"
+        "merged": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-merged_res-46:/mipmap-anydpi-v26_ic_iconescuela_round.xml.flat",
+        "source": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-debug-47:/mipmap-anydpi-v26/ic_iconescuela_round.xml"
     },
     {
-        "merged": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-merged_res-40:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-main-42:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+        "merged": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-merged_res-46:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-main-48:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-merged_res-40:\\drawable_ic_baseline_info_24.xml.flat",
-        "source": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-main-42:\\drawable\\ic_baseline_info_24.xml"
+        "merged": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-merged_res-46:/mipmap-mdpi_ic_iconescuela_foreground.png.flat",
+        "source": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-debug-47:/mipmap-mdpi/ic_iconescuela_foreground.png"
     },
     {
-        "merged": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-merged_res-40:\\drawable-v24_background.png.flat",
-        "source": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-main-42:\\drawable-v24\\background.png"
+        "merged": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-merged_res-46:/drawable_ic_iconescuela_background.xml.flat",
+        "source": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-debug-47:/drawable/ic_iconescuela_background.xml"
     },
     {
-        "merged": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-merged_res-40:\\drawable-v24_testps.png.flat",
-        "source": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-main-42:\\drawable-v24\\testps.png"
+        "merged": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-merged_res-46:/mipmap-mdpi_ic_iconescuela_round.png.flat",
+        "source": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-debug-47:/mipmap-mdpi/ic_iconescuela_round.png"
     },
     {
-        "merged": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-merged_res-40:\\mipmap-mdpi_ic_iconescuela.png.flat",
-        "source": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-debug-41:\\mipmap-mdpi\\ic_iconescuela.png"
+        "merged": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-merged_res-46:/drawable-v24_pea.png.flat",
+        "source": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-main-48:/drawable-v24/pea.png"
     },
     {
-        "merged": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-merged_res-40:\\mipmap-xhdpi_ic_iconescuela_round.png.flat",
-        "source": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-debug-41:\\mipmap-xhdpi\\ic_iconescuela_round.png"
+        "merged": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-merged_res-46:/drawable-v24_libros.png.flat",
+        "source": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-main-48:/drawable-v24/libros.png"
     },
     {
-        "merged": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-merged_res-40:\\drawable-v24_pea.png.flat",
-        "source": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-main-42:\\drawable-v24\\pea.png"
+        "merged": "com.example.proyectofinalprogramacioniv.app-merged_res-46:/layout_activity_perfil.xml.flat",
+        "source": "com.example.proyectofinalprogramacioniv.app-main-48:/layout/activity_perfil.xml"
     },
     {
-        "merged": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-merged_res-40:\\drawable-v24_puntuacion.png.flat",
-        "source": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-main-42:\\drawable-v24\\puntuacion.png"
+        "merged": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-merged_res-46:/layout_activity_forget_pass.xml.flat",
+        "source": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-main-48:/layout/activity_forget_pass.xml"
     },
     {
-        "merged": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-merged_res-40:\\mipmap-hdpi_ic_iconescuela_round.png.flat",
-        "source": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-debug-41:\\mipmap-hdpi\\ic_iconescuela_round.png"
+        "merged": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-merged_res-46:/drawable_ic_baseline_info1_24.xml.flat",
+        "source": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-main-48:/drawable/ic_baseline_info1_24.xml"
     },
     {
-        "merged": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-merged_res-40:\\layout_activity_home.xml.flat",
-        "source": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-main-42:\\layout\\activity_home.xml"
+        "merged": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-merged_res-46:/mipmap-xxxhdpi_ic_iconescuela_round.png.flat",
+        "source": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-debug-47:/mipmap-xxxhdpi/ic_iconescuela_round.png"
     },
     {
-        "merged": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-merged_res-40:\\xml_backup_rules.xml.flat",
-        "source": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-main-42:\\xml\\backup_rules.xml"
+        "merged": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-merged_res-46:/drawable-v24_testps.png.flat",
+        "source": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-main-48:/drawable-v24/testps.png"
     },
     {
-        "merged": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-merged_res-40:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-main-42:\\mipmap-xhdpi\\ic_launcher_round.webp"
+        "merged": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-merged_res-46:/mipmap-xxhdpi_ic_iconescuela_round.png.flat",
+        "source": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-debug-47:/mipmap-xxhdpi/ic_iconescuela_round.png"
     },
     {
-        "merged": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-merged_res-40:\\mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-main-42:\\mipmap-xxhdpi\\ic_launcher.webp"
+        "merged": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-merged_res-46:/layout_activity_home.xml.flat",
+        "source": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-main-48:/layout/activity_home.xml"
     },
     {
-        "merged": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-merged_res-40:\\mipmap-xhdpi_ic_iconescuela_foreground.png.flat",
-        "source": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-debug-41:\\mipmap-xhdpi\\ic_iconescuela_foreground.png"
+        "merged": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-merged_res-46:/mipmap-xxxhdpi_ic_iconescuela_foreground.png.flat",
+        "source": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-debug-47:/mipmap-xxxhdpi/ic_iconescuela_foreground.png"
     },
     {
-        "merged": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-merged_res-40:\\mipmap-mdpi_ic_iconescuela_round.png.flat",
-        "source": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-debug-41:\\mipmap-mdpi\\ic_iconescuela_round.png"
+        "merged": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-merged_res-46:/drawable-v24_configuraciones.png.flat",
+        "source": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-main-48:/drawable-v24/configuraciones.png"
     },
     {
-        "merged": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-merged_res-40:\\drawable_right_bg.xml.flat",
-        "source": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-main-42:\\drawable\\right_bg.xml"
+        "merged": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-merged_res-46:/drawable-v24_clasificacion.png.flat",
+        "source": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-main-48:/drawable-v24/clasificacion.png"
     },
     {
-        "merged": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-merged_res-40:\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-main-42:\\drawable\\ic_launcher_background.xml"
+        "merged": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-merged_res-46:/layout_activity_time_questions.xml.flat",
+        "source": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-main-48:/layout/activity_time_questions.xml"
     },
     {
-        "merged": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-merged_res-40:\\drawable_ic_baseline_person_24.xml.flat",
-        "source": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-main-42:\\drawable\\ic_baseline_person_24.xml"
+        "merged": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-merged_res-46:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-main-48:/mipmap-hdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-merged_res-40:\\drawable_ic_baseline_info1_24.xml.flat",
-        "source": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-main-42:\\drawable\\ic_baseline_info1_24.xml"
+        "merged": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-merged_res-46:/drawable-v24_examenpsicologica.png.flat",
+        "source": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-main-48:/drawable-v24/examenpsicologica.png"
     },
     {
-        "merged": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-merged_res-40:\\mipmap-xxxhdpi_ic_iconescuela_round.png.flat",
-        "source": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-debug-41:\\mipmap-xxxhdpi\\ic_iconescuela_round.png"
+        "merged": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-merged_res-46:/mipmap-anydpi-v26_ic_iconescuela.xml.flat",
+        "source": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-debug-47:/mipmap-anydpi-v26/ic_iconescuela.xml"
     },
     {
-        "merged": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-merged_res-40:\\drawable_custom_buttom.xml.flat",
-        "source": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-main-42:\\drawable\\custom_buttom.xml"
+        "merged": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-merged_res-46:/drawable-v24_google.png.flat",
+        "source": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-main-48:/drawable-v24/google.png"
     },
     {
-        "merged": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-merged_res-40:\\drawable_ic_baseline_email_24.xml.flat",
-        "source": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-main-42:\\drawable\\ic_baseline_email_24.xml"
+        "merged": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-merged_res-46:/mipmap-hdpi_ic_iconescuela_round.png.flat",
+        "source": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-debug-47:/mipmap-hdpi/ic_iconescuela_round.png"
     },
     {
-        "merged": "com.example.proyectofinalprogramacioniv.app-merged_res-40:/layout_activity_sign_up.xml.flat",
-        "source": "com.example.proyectofinalprogramacioniv.app-main-42:/layout/activity_sign_up.xml"
+        "merged": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-merged_res-46:/drawable_ic_baseline_email_24.xml.flat",
+        "source": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-main-48:/drawable/ic_baseline_email_24.xml"
     },
     {
-        "merged": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-merged_res-40:\\layout_activity_sign_up.xml.flat",
-        "source": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-main-42:\\layout\\activity_sign_up.xml"
+        "merged": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-merged_res-46:/drawable-v24_usuario123.png.flat",
+        "source": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-main-48:/drawable-v24/usuario123.png"
     },
     {
-        "merged": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-merged_res-40:\\drawable_ic_baseline_person_pin_circle_24.xml.flat",
-        "source": "C:\\Users\\jhavi\\.gradle\\daemon\\7.4\\com.example.proyectofinalprogramacioniv.app-main-42:\\drawable\\ic_baseline_person_pin_circle_24.xml"
+        "merged": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-merged_res-46:/mipmap-mdpi_ic_iconescuela.png.flat",
+        "source": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-debug-47:/mipmap-mdpi/ic_iconescuela.png"
+    },
+    {
+        "merged": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-merged_res-46:/drawable_card_bg.xml.flat",
+        "source": "/home/vde/.gradle/daemon/7.4/com.example.proyectofinalprogramacioniv.app-main-48:/drawable/card_bg.xml"
     }
 ]

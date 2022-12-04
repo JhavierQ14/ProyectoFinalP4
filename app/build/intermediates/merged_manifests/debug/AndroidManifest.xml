@@ -31,6 +31,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ProyectoFinalProgramacionIV" >
         <activity
+            android:name="com.example.proyectofinalprogramacioniv.UI.Activities.PerfilActivity"
+            android:exported="false" >
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name="com.example.proyectofinalprogramacioniv.UI.Activities.ForgetPassActivity"
             android:exported="false" >
             <meta-data
@@ -60,13 +67,6 @@
         </activity>
         <activity
             android:name="com.example.proyectofinalprogramacioniv.UI.Activities.SignUpActivity"
-            android:exported="false" >
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
-        <activity
-            android:name="com.example.proyectofinalprogramacioniv.UI.Activities.PerfilActivity"
             android:exported="false" >
             <meta-data
                 android:name="android.app.lib_name"
