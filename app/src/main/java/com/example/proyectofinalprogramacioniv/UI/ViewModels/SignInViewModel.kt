@@ -1,4 +1,6 @@
 package com.example.proyectofinalprogramacioniv.UI.ViewModels
 
-class SignInViewModel {
+import androidx.lifecycle.ViewModel
+
+class SignInViewModel: ViewModel(){
 }

@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.view.View
 import android.widget.*
 import androidx.appcompat.app.AppCompatActivity
+import com.example.proyectofinalprogramacioniv.Data.Services.QuestionsService
 import com.example.proyectofinalprogramacioniv.Domain.ClsAuthentication
 import com.example.proyectofinalprogramacioniv.R
 import com.facebook.CallbackManager
@@ -28,7 +29,7 @@ import com.google.firebase.auth.GoogleAuthProvider
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
 
-class SignInActivity : AppCompatActivity() {
+class SignInActivity: AppCompatActivity() {
 
     //Variables Globales
     private lateinit var firebaseAnalytics: FirebaseAnalytics /* */

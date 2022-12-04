@@ -1,10 +1,15 @@
 package com.example.proyectofinalprogramacioniv.UI.Activities
 
+import android.content.ContentValues
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.view.View
 import android.widget.EditText
 import android.widget.TextView
+import com.example.proyectofinalprogramacioniv.Data.Entities.Questions
+import com.example.proyectofinalprogramacioniv.Data.Repository.QuestionsRepository
+import com.example.proyectofinalprogramacioniv.Data.Services.QuestionsService
 import com.example.proyectofinalprogramacioniv.databinding.ActivityPerfilBinding
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.firestore.FirebaseFirestore
@@ -18,7 +23,6 @@ class PerfilActivity : AppCompatActivity() {
     //
     private var db = FirebaseFirestore.getInstance()
 
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
@@ -28,6 +32,7 @@ class PerfilActivity : AppCompatActivity() {
 
         //
         GetInfoUser()
+        //getI()
     }
 
     private fun GetInfoUser(){
@@ -62,54 +67,41 @@ class PerfilActivity : AppCompatActivity() {
                 //LastNameUserEdt.setText(it.get("lastNameUser") as String?)
 
             }
+
         }
     }
 
-    fun Loquesea(v: View){
+    /*fun getI(){
 
-       /* val collectionQuestion = db.collection("Questions")
+        var collection = mutableListOf<Questions>()
 
-        val data1 = hashMapOf(
-            "cod_state_test" to 1,
-            "test_name" to "Teorico",
-            "img_question" to "urlimg",
-            "description_question" to "En las vías de doble sentido de circulación y tres carriles separados por marcas longitudinales discontinuas, debemos circular por el carril:",
-            "answer_question" to listOf("No esta reglamentado",
-                "No esta reglamentado",
-                "Por el centro de la vía",
-                "Por el carril izquierdo",
-                "Por el carril derecho",
-                "2")
-        )
-        collectionQuestion.document().set(data1)
+        db.collection("Questions")
+            .get()
+            .addOnSuccessListener { result ->
 
-        val data2 = hashMapOf(
-            "cod_state_test" to 1,
-            "test_name" to "Teorico",
-            "img_question" to "urlimg",
-            "description_question" to "Cuál es el color utilizado en las señales informativas",
-            "answer_question" to listOf("west_coast",
-                "Rojas con blanco",
-                "violeta Azul",
-                "blanco Amarillas con negro Café",
-                "azul y verde",
-                "2")
-        )
-        collectionQuestion.document().set(data2)
+                for ( list in result){
+                    Log.d("Preguntas", "$collection")
+                    val listQ: Questions = list.toObject(Questions::class.java)
+                    collection.add(listQ)
+                }
+            }.addOnFailureListener { exception ->
+                Log.w(ContentValues.TAG, "Error getting documents: ", exception)
+            }
 
-        val data3 = hashMapOf(
-            "cod_state_test" to 1,
-            "test_name" to "Teorico",
-            "img_question" to "urlimg",
-            "description_question" to "Uno de los requisitos que deben tener los talleres que realizan la revisión mecánica es:",
-            "answer_question" to listOf("Deben ser talleres del Gobierno",
-                "Deben dedicarse solo a estas revisiones",
-                "Poseer equipo técnico adecuado para efectuar dichas revisiones",
-                "Deben estar fuera de la capital",
-                "Deben ser talleres del Gobierno",
-                "1")
-        )
-        collectionQuestion.document().set(data3)*/
-    }
+        //Log.d("Preguntas", "$collection")
+    }*/
+
+    /*db.collection("Users").document(email.toString()).get().addOnSuccessListener {
+
+                var n = it.get("nameUser"+ " " + "lastNameUser") as String?
+                var nn = ""
+                _binding.tvNameUser.setText(n)
+                //nameUserTv.setText(it.get("nameUser"+ " " + "lastNameUser") as String?)
+                _binding.edtNombreUser.setText(it.get("nameUser")as String?)
+                //NameUserEdt.setText(it.get("nameUser")as String?)
+                _binding.edtLastNameUser.setText(it.get("lastNameUser") as String?)
+                //LastNameUserEdt.setText(it.get("lastNameUser") as String?)
+
+            }*/
 
 }
