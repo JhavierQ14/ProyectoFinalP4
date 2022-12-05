@@ -10,40 +10,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="450caced-0914-4eb5-a05e-b7cb4f92b050" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/proyectofinalprogramacioniv/UI/Activities/Constants.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/proyectofinalprogramacioniv/UI/Activities/ModelQuestionTeorico.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/proyectofinalprogramacioniv/UI/Activities/ResultadoActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/cedaelpaso.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/devolver.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/horizontal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/nopeatones.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/que7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/question7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/stop.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/trofeo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/correct_option_border_bg.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/selected_option_border_bg.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/wrong_option_border_bg.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_resultado.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/proyectofinalprogramacioniv/UI/Activities/EstudiarActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_estudiar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.4/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/checksums/checksums.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.4/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/checksums/md5-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.4/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/checksums/sha1-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.4/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/proyectofinalprogramacioniv/UI/Activities/ConfigActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/proyectofinalprogramacioniv/UI/Activities/ConfigActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/proyectofinalprogramacioniv/UI/Activities/HomeActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/proyectofinalprogramacioniv/UI/Activities/HomeActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/proyectofinalprogramacioniv/UI/Activities/QuestionActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/proyectofinalprogramacioniv/UI/Activities/QuestionActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_home.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_home.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_question.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_question.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
     </list>
@@ -52,7 +29,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[R58M44LA5XH]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\veget\.android\avd\Nexus_5X_API_25.avd]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -129,33 +106,8 @@
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
-    <key name="android.template.-613178359">
-      <recent name="com.example.proyectofinalprogramacioniv" />
-    </key>
-    <key name="android.template.-1336220770">
-      <recent name="com.example.proyectofinalprogramacioniv" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\jhavi\Documents\GitHub\ProyectoFinalP4\app\src\main\res\drawable-v24" />
-      <recent name="C:\Users\jhavi\Documents\GitHub\ProyectoFinalP4\app\src\main\res\drawable" />
-      <recent name="C:\Users\jhavi\Documents\GitHub\ProyectoFinalP4\app\src\debug\res" />
-      <recent name="C:\Users\jhavi\Documents\GitHub\ProyectoFinalP4\app" />
-    </key>
-    <key name="android.template.1615461348">
-      <recent name="com.example.proyectofinalprogramacioniv.UI.Activities" />
-    </key>
     <key name="android.template.-1462323663">
       <recent name="com.example.proyectofinalprogramacioniv.UI.Activities" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app" />
-    </key>
-    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
-      <recent name="com.example.proyectofinalprogramacioniv.Data.Services" />
-      <recent name="com.example.proyectofinalprogramacioniv.UI.Activities" />
-      <recent name="com.example.proyectofinalprogramacioniv" />
-      <recent name="com.example.proyectofinalprogramacioniv.UI" />
-      <recent name="com.example.proyectofinalprogramacioniv.Domain" />
     </key>
     <key name="android.template.932652785">
       <recent name="com.example.proyectofinalprogramacioniv" />
@@ -171,6 +123,34 @@
     </key>
     <key name="android.template.634170910">
       <recent name="com.example.proyectofinalprogramacioniv" />
+    </key>
+    <key name="android.template.-613178359">
+      <recent name="com.example.proyectofinalprogramacioniv" />
+    </key>
+    <key name="android.template.-1336220770">
+      <recent name="com.example.proyectofinalprogramacioniv" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\jhavi\Documents\GitHub\ProyectoFinalP4\app\src\main\res\drawable-v24" />
+      <recent name="C:\Users\jhavi\Documents\GitHub\ProyectoFinalP4\app\src\main\res\drawable" />
+      <recent name="C:\Users\jhavi\Documents\GitHub\ProyectoFinalP4\app\src\debug\res" />
+      <recent name="C:\Users\jhavi\Documents\GitHub\ProyectoFinalP4\app" />
+    </key>
+    <key name="android.template.1615461348">
+      <recent name="com.example.proyectofinalprogramacioniv.UI.Activities" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app" />
+    </key>
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="com.example.proyectofinalprogramacioniv.Data.Services" />
+      <recent name="com.example.proyectofinalprogramacioniv.UI.Activities" />
+      <recent name="com.example.proyectofinalprogramacioniv" />
+      <recent name="com.example.proyectofinalprogramacioniv.UI" />
+      <recent name="com.example.proyectofinalprogramacioniv.Domain" />
+    </key>
+    <key name="android.template.-132684096">
+      <recent name="com.example.proyectofinalprogramacioniv.UI.Activities" />
     </key>
   </component>
   <component name="RunManager" selected="Android App.app">
