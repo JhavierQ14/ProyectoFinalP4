@@ -6,20 +6,22 @@ import android.os.Bundle
 import android.view.View
 import android.widget.ImageView
 import android.widget.Switch
+import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatDelegate
 import com.example.proyectofinalprogramacioniv.Domain.ClsAuthentication
 import com.example.proyectofinalprogramacioniv.R
 
 class ConfigActivity : AppCompatActivity() {
 
-
+    private lateinit var builder: AlertDialog.Builder
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_config)
 
+
         val swiitch = findViewById<Switch>(R.id.swtich)
         val ivModo = findViewById<ImageView>(R.id.ivModo)
-
+        builder = AlertDialog.Builder(this)
 
         swiitch.setOnCheckedChangeListener { _, _ ->
             if (swiitch.isChecked) {
@@ -60,13 +62,24 @@ class ConfigActivity : AppCompatActivity() {
         // Objeto referencia a ClsAuthentication
         var oClsAuthentication: ClsAuthentication = ClsAuthentication()
 
-        // Ejecucion de funcion
-        oClsAuthentication.SignOut()
+        builder.setTitle("Alerta!")
+            .setMessage("Quieres cerrar sesion?")
+            .setCancelable(true)
 
-        // Ejecucion de funcion SignIn()
-        SignIn()
+            .setPositiveButton("Si"){dialogInterface,it ->
+                finish()
+                // Ejecucion de funcion
+                oClsAuthentication.SignOut()
+                // Ejecucion de funcion SignIn()
+                SignIn()
 
-        // Terminar la actividad
+            }
+            .setNegativeButton("No"){dialogInterface,it ->
+                dialogInterface.cancel()
+
+            }
+
+            .show()
 
     }
 
