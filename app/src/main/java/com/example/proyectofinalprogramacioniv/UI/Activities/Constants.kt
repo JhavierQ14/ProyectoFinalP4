@@ -4,13 +4,11 @@ import com.example.proyectofinalprogramacioniv.R
 
 object Constants {
 
-    const val  USER_NAME: String = "user_name"
-    const val TOTAL_QUESTION: String = "total_question"
-    const val  CORRECT_ANSWERS: String = "corret_answers"
+    fun RandomNumber(): Int{return (0..9).random()}
 
     fun getQuestionTeorico(): ArrayList<ModelQuestionTeorico>{
 
-        val questionTList = ArrayList<ModelQuestionTeorico>()
+        var listQuestions = arrayListOf<ModelQuestionTeorico>()
 
         val que1 = ModelQuestionTeorico( 1,"Que significa la siguiente senal de transito?",
         R.drawable.devolver,
@@ -21,7 +19,7 @@ object Constants {
             1
         )
 
-        questionTList.add(que1)
+        listQuestions.add(que1)
 
         val que2 = ModelQuestionTeorico( 1,"¿Por cuántos años se otorga la concesión para prestar el servicio de Transporte Colectivo de pasajeros, Escolar y especiales?",
            0,
@@ -31,7 +29,7 @@ object Constants {
             "1 año prorrogables",
             2
         )
-        questionTList.add(que2)
+        listQuestions.add(que2)
 
 
         val que3 = ModelQuestionTeorico( 1,"Las infracciones de tránsito y seguridad vial se clasifican en:",
@@ -42,7 +40,7 @@ object Constants {
             "Muy graves, semi-graves y simples",
             4
         )
-        questionTList.add(que3)
+        listQuestions.add(que3)
 
         val que4 = ModelQuestionTeorico( 1," La señales pintadas sobre el pavimento tal como se muestra en la gráfica, son llamadas.?",
             R.drawable.horizontal,
@@ -52,7 +50,7 @@ object Constants {
             "Señales de paso e intersecciones",
             1
         )
-        questionTList.add(que4)
+        listQuestions.add(que4)
 
         val que5 = ModelQuestionTeorico( 1,"Cual es el significado de esta señal?",
             R.drawable.stop,
@@ -62,7 +60,7 @@ object Constants {
             "Retroceder y seguir recto",
             2
         )
-        questionTList.add(que5)
+        listQuestions.add(que5)
 
 
         val que6 = ModelQuestionTeorico( 1,"Cual es el significado de esta señal?",
@@ -73,7 +71,7 @@ object Constants {
             "Solo dejar pasar vehículos grandes",
             2
         )
-        questionTList.add(que6)
+        listQuestions.add(que6)
 
 
         val que7 = ModelQuestionTeorico( 1,"Cual es el nombre de esta señal?",
@@ -84,7 +82,7 @@ object Constants {
             "Prohibido salir por la intersección",
             2
         )
-        questionTList.add(que7)
+        listQuestions.add(que7)
 
         val que8 = ModelQuestionTeorico( 1," Cual es el nombre de esta señal?",
             R.drawable.nopeatones,
@@ -94,7 +92,7 @@ object Constants {
             "No peatones ",
             4
         )
-        questionTList.add(que8)
+        listQuestions.add(que8)
 
         val que9 = ModelQuestionTeorico( 1," Se prohíbe la maniobra de marcha hacia atrás:",
             0,
@@ -104,7 +102,7 @@ object Constants {
             " La red vial urbana principal",
             1
         )
-        questionTList.add(que9)
+        listQuestions.add(que9)
 
         val que10 = ModelQuestionTeorico( 1,"Las personas Naturales o Jurídicas que se dediquen a la venta de vehículos, que clase de seguro deben de tomar:",
            0,
@@ -114,11 +112,21 @@ object Constants {
             "No deben asegurarlos",
             1
         )
-        questionTList.add(que10)
+        listQuestions.add(que10)
+
+        var ramdomList = arrayListOf<ModelQuestionTeorico>()
+        var position: Int = RandomNumber()
+
+        for (i in 1..9){
+
+            var position: Int = RandomNumber()
+            var list = listQuestions[position]
+            ramdomList.add(list)
+        }
 
 
 
-        return  questionTList
+        return  ramdomList
 
     }
 

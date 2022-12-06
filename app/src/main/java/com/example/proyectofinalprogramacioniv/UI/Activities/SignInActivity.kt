@@ -51,6 +51,7 @@ class SignInActivity: AppCompatActivity() {
     // estados de activity *************************************************************************
 
     override fun onCreate(savedInstanceState: Bundle?) {
+        setTheme(R.style.splashtheme)
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_sign_in)
 

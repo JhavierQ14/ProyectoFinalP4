@@ -85,7 +85,7 @@
             android:layout_height="match_parent"
             android:layout_gravity="center_horizontal|center_vertical"
             android:gravity="center"
-            android:onClick="AlertaDialog"
+            android:onClick="TestPsychological"
             android:orientation="vertical">
 
             <ImageView
@@ -120,7 +120,7 @@
             android:layout_height="match_parent"
             android:layout_gravity="center_horizontal|center_vertical"
             android:gravity="center"
-            android:onClick="questionbtn"
+            android:onClick="TestTheoretical"
             android:orientation="vertical">
 
             <ImageView
@@ -183,6 +183,7 @@
 
         <LinearLayout
             android:id="@+id/btnEstudiar"
+            android:onClick="StudingTest"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical"
