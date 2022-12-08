@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@drawable/background"
-    tools:context=".UI.Activities.ConfigActivity">
+    tools:context=".ui.activities.ConfigActivity">
 
 
     <TextView

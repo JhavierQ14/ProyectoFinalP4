@@ -1,12 +1,12 @@
 package com.example.proyectofinalprogramacioniv.core
 
-import com.example.proyectofinalprogramacioniv.Data.DataSources.FirebaseConnectionDS
+import com.example.proyectofinalprogramacioniv.data.datasources.FirestoreNetwork
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
 
 class SignUserStatics constructor(
 
-    private var oFirebaseConnectionDS: FirebaseConnectionDS
+    private var oFirebaseConnectionDS: FirestoreNetwork
 ) {
 
     companion object {
@@ -30,7 +30,7 @@ class SignUserStatics constructor(
                     emailUser = email
 
 
-                    val oFirebaseConnectionDS = FirebaseConnectionDS
+                    val oFirebaseConnectionDS = FirestoreNetwork
                     oFirebaseConnectionDS.ProviderFirebaseFirestore().collection("Users")
                         .document(email.toString()).get().addOnSuccessListener {
 

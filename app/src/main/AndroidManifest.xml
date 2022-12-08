@@ -16,70 +16,70 @@
         android:theme="@style/Theme.ProyectoFinalProgramacionIV"
         tools:targetApi="31">
         <activity
-            android:name=".UI.Activities.EstudiarActivity"
+            android:name=".ui.activities.EstudiarActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".UI.Activities.ResultadoActivity"
+            android:name=".ui.activities.ResultadoActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".UI.Activities.PerfilActivity"
+            android:name=".ui.activities.PerfilActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".UI.Activities.ForgetPassActivity"
+            android:name=".ui.activities.ForgetPassActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".UI.Activities.PsychologicalActivity"
+            android:name=".ui.activities.PsychologicalActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".UI.Activities.ConfigActivity"
+            android:name=".ui.activities.ConfigActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".UI.Activities.TheoreticalActivity"
+            android:name=".ui.activities.TheoreticalActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".UI.Activities.SignUpActivity"
+            android:name=".ui.activities.SignUpActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".UI.Activities.HomeActivity"
+            android:name=".ui.activities.HomeActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".UI.Activities.SignInActivity"
+            android:name=".ui.activities.SignInActivity"
             android:theme="@style/splashtheme"
             android:exported="true">
             <intent-filter>
