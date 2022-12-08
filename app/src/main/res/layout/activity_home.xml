@@ -155,7 +155,9 @@
             android:layout_height="match_parent"
             android:orientation="vertical"
             android:gravity="center"
+            android:onClick="btnHistory"
             android:layout_gravity="center_horizontal|center_vertical">
+
             <ImageView
                 android:layout_width="75dp"
                 android:layout_height="75dp"
@@ -183,7 +185,7 @@
 
         <LinearLayout
             android:id="@+id/btnEstudiar"
-            android:onClick="GoStudingTest"
+            android:onClick="btnEstudiar"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical"

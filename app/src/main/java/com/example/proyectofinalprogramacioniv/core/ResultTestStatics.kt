@@ -2,6 +2,9 @@ package com.example.proyectofinalprogramacioniv.core
 
 object ResultTestStatics {
 
-    var TOTAL_QUESTION: String = "total_question"
-    var CORRECT_ANSWERS: String = "corret_answers"
+    var TOTAL_QUESTIONT: String = ""
+    var CORRECT_ANSWERST: String = ""
+
+    var TOTAL_QUESTIONP: String = ""
+    var CORRECT_ANSWERSP: String = ""
 }

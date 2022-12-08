@@ -10,6 +10,7 @@ import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatDelegate
 import com.example.proyectofinalprogramacioniv.domain.ClsAuthentication
 import com.example.proyectofinalprogramacioniv.R
+import com.example.proyectofinalprogramacioniv.ui.activities.SignInActivity
 
 class ConfigActivity : AppCompatActivity() {
 

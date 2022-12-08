@@ -7,6 +7,10 @@ import android.view.View
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
+import com.example.proyectofinalprogramacioniv.core.ResultTestStatics
+import com.example.proyectofinalprogramacioniv.ui.activities.ConfigActivity
+import com.example.proyectofinalprogramacioniv.ui.activities.EstudiarActivity
+import com.example.proyectofinalprogramacioniv.ui.activities.PerfilActivity
 import com.example.proyectofinalprogramacioniv.core.SignUserStatics
 import com.example.proyectofinalprogramacioniv.data.datasources.FirestoreNetwork
 import com.example.proyectofinalprogramacioniv.databinding.ActivityHomeBinding
@@ -97,6 +101,39 @@ class HomeActivity : AppCompatActivity() {
         Toast.makeText(this,"Registro exitoso", Toast.LENGTH_LONG).show()
 
     }
+    fun btnHistory (view: View) {
+
+        var correctAw: String = ResultTestStatics.CORRECT_ANSWERST
+        var sizeQuest: String = ResultTestStatics.TOTAL_QUESTIONT
+
+        var correctAnP: String = ResultTestStatics.CORRECT_ANSWERSP
+        var sizeQuesP: String = ResultTestStatics.TOTAL_QUESTIONP
+
+        if (correctAw.isNotEmpty()&& sizeQuest.isNotEmpty() && correctAnP.isNotEmpty() && sizeQuesP.isNotEmpty()){
+
+            val ventanaSiguiente: Intent = Intent(this, HistoryActivity::class.java)
+            startActivity(ventanaSiguiente)
+        }else {
+            builder.setTitle("Alerta!")
+                .setMessage("Debes realizar primero los test")
+                .setCancelable(true)
+
+                .setPositiveButton("Ok") { dialogInterface, it ->
+
+
+                }
+                .show()
+        }
+
+
+    }
+
+    fun btnEstudiar (view: View) {
+
+        val ventanaSiguiente: Intent = Intent(this, EstudiarActivity::class.java)
+        startActivity(ventanaSiguiente)
+    }
+
 
 
 }

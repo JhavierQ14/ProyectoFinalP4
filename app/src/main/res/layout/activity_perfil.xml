@@ -91,7 +91,6 @@
             android:layout_height="wrap_content"
             android:background="@color/white"
             android:fontFamily="sans-serif"
-            android:onClick="Loquesea"
             android:text="Actualizar">
 
         </Button>

@@ -9,7 +9,10 @@ import android.widget.Button
 import android.widget.TextView
 import android.widget.Toast
 import com.example.proyectofinalprogramacioniv.R
+import com.example.proyectofinalprogramacioniv.ui.activities.ModelQuestion
 import com.example.proyectofinalprogramacioniv.core.ResultTestStatics
+import com.example.proyectofinalprogramacioniv.core.SignUserStatics
+import com.google.firebase.firestore.FirebaseFirestore
 import java.util.*
 import java.util.concurrent.TimeUnit
 import kotlin.collections.ArrayList
@@ -20,6 +23,7 @@ class PsychologicalActivity : AppCompatActivity() {
     lateinit var questionsList:ArrayList<ModelQuestion>
     private var index:Int = 0
     lateinit var questionModel: ModelQuestion
+    private var db = FirebaseFirestore.getInstance()
 
     private var correctAnswerCount:Int=0
     private var wrongAnswerCount:Int=0
@@ -91,8 +95,20 @@ class PsychologicalActivity : AppCompatActivity() {
 
                 }  else{
 
-                    ResultTestStatics.CORRECT_ANSWERS = correctAnswerCount.toString()
-                    ResultTestStatics.TOTAL_QUESTION = questionsList.size.toString()
+                    var email = SignUserStatics.emailUser
+
+                    db.collection("Histories").document(email.toString()).set(
+
+                        hashMapOf(
+                            "pointTeorico" to "${correctAnswerCount.toString()}",
+                            "pontPsicologico" to "puntaje"
+
+
+                        )
+                    )
+
+                    ResultTestStatics.CORRECT_ANSWERSP = correctAnswerCount.toString()
+                    ResultTestStatics.TOTAL_QUESTIONP = questionsList.size.toString()
                     TestResult()
                 }
             }
@@ -113,10 +129,13 @@ class PsychologicalActivity : AppCompatActivity() {
     }
 
    private fun TestResult(){
+
+
+
+
         var intent= Intent(this, ResultadoActivity::class.java)
 
-        intent.putExtra("Correctas", correctAnswerCount.toString())
-        intent.putExtra("total", questionsList.size.toString())
+        intent.putExtra("Tipo","Psicologico" )
 
         startActivity(intent)
     }

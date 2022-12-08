@@ -22,14 +22,28 @@ class ResultadoActivity : AppCompatActivity() {
 
     private fun GetInfoUser(){
 
+        val bundle: Bundle? = intent.extras
+      var b = bundle?.getString("Tipo")
+
         var nameUser: String? = SignUserStatics.nameUser
         var lastNameUser: String? = SignUserStatics.lastNameUser
         var nameCompleteU: String? = nameUser+ "" +lastNameUser
-        var correctAw: String = ResultTestStatics.CORRECT_ANSWERS
-        var sizeQuest: String = ResultTestStatics.TOTAL_QUESTION
+        var correctAw: String = ResultTestStatics.CORRECT_ANSWERST
+        var sizeQuest: String = ResultTestStatics.TOTAL_QUESTIONT
 
         binding.tvName.setText(nameCompleteU)
-        binding.tvScore.setText("Tu puntuacion es $correctAw de $sizeQuest")
+        if (b == "Psicologico"){
+
+            var correctAnP: String = ResultTestStatics.CORRECT_ANSWERSP
+            var sizeQuesP: String = ResultTestStatics.TOTAL_QUESTIONP
+
+            binding.tvScore.setText("Tu puntuacion es $correctAnP de $sizeQuesP")
+        }else{
+
+            binding.tvScore.setText("Tu puntuacion es $correctAw de $sizeQuest")
+
+        }
+
     }
 
     private fun TerminaTest(){

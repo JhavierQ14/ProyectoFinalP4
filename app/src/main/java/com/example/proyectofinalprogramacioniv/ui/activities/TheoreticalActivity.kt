@@ -10,6 +10,8 @@ import android.view.View.OnClickListener
 import android.widget.TextView
 import androidx.core.content.ContextCompat
 import com.example.proyectofinalprogramacioniv.R
+import com.example.proyectofinalprogramacioniv.ui.activities.Constants
+import com.example.proyectofinalprogramacioniv.ui.activities.ModelQuestionTeorico
 import com.example.proyectofinalprogramacioniv.core.ResultTestStatics
 import com.example.proyectofinalprogramacioniv.databinding.ActivityTheoreticalBinding
 
@@ -114,8 +116,8 @@ class TheoreticalActivity : AppCompatActivity(), OnClickListener {
 
                         }else-> {
 
-                        ResultTestStatics.CORRECT_ANSWERS = mCorrectAnswers.toString()
-                        ResultTestStatics.TOTAL_QUESTION = mQuestionList!!.size.toString()
+                        ResultTestStatics.CORRECT_ANSWERST = mCorrectAnswers.toString()
+                        ResultTestStatics.TOTAL_QUESTIONT = mQuestionList!!.size.toString()
                         val intent = Intent (this,ResultadoActivity::class.java)
                         startActivity(intent)
 

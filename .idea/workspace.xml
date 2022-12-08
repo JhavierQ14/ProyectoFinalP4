@@ -2,7 +2,11 @@
 <project version="4">
   <component name="AndroidLayouts">
     <shared>
-      <config />
+      <config>
+        <device id="pixel_5" />
+        <device id="_device_class_foldable" />
+        <device id="_device_class_phone" />
+      </config>
     </shared>
   </component>
   <component name="AutoImportSettings">
@@ -10,11 +14,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="450caced-0914-4eb5-a05e-b7cb4f92b050" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/proyectofinalprogramacioniv/data/localdb/QuestionsProvider.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/proyectofinalprogramacioniv/data/services/IQuestions.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/proyectofinalprogramacioniv/domain/GetQuestionsTheoretical.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/proyectofinalprogramacioniv/ui/viewmodels/HomeViewModel.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/proyectofinalprogramacioniv/ui/viewmodels/QuestionViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/notaa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_history.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.4/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/checksums/checksums.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.4/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/checksums/md5-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.4/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/checksums/sha1-checksums.bin" afterDir="false" />
@@ -27,53 +28,23 @@
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/proyectofinalprogramacioniv/Data/DataSources/FirebaseConnectionDS.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/proyectofinalprogramacioniv/data/datasources/FirestoreNetwork.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/proyectofinalprogramacioniv/Data/Entities/Answers.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/proyectofinalprogramacioniv/Data/Entities/Questions.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/proyectofinalprogramacioniv/data/models/Questions.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/proyectofinalprogramacioniv/Data/Entities/Users.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/proyectofinalprogramacioniv/data/models/Users.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/proyectofinalprogramacioniv/Data/Repository/QuestionsRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/proyectofinalprogramacioniv/data/repository/QuestionsRepository.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/proyectofinalprogramacioniv/Data/Repository/UsersRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/proyectofinalprogramacioniv/data/repository/UsersRepository.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/proyectofinalprogramacioniv/Data/Services/QuestionsService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/proyectofinalprogramacioniv/data/services/QuestionsService.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/proyectofinalprogramacioniv/Data/Services/UsersService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/proyectofinalprogramacioniv/data/services/UsersService.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/proyectofinalprogramacioniv/Domain/ClsAuthentication.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/proyectofinalprogramacioniv/domain/ClsAuthentication.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/proyectofinalprogramacioniv/Domain/ClsQuestion.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/proyectofinalprogramacioniv/domain/ClsQuestion.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/proyectofinalprogramacioniv/StartUpConfig.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/proyectofinalprogramacioniv/StartUpApp.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/proyectofinalprogramacioniv/UI/Activities/ConfigActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/proyectofinalprogramacioniv/ui/activities/ConfigActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/proyectofinalprogramacioniv/UI/Activities/Constants.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/proyectofinalprogramacioniv/ui/activities/Constants.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/proyectofinalprogramacioniv/UI/Activities/EstudiarActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/proyectofinalprogramacioniv/ui/activities/EstudiarActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/proyectofinalprogramacioniv/UI/Activities/ForgetPassActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/proyectofinalprogramacioniv/ui/activities/ForgetPassActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/proyectofinalprogramacioniv/UI/Activities/HomeActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/proyectofinalprogramacioniv/ui/activities/HomeActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/proyectofinalprogramacioniv/UI/Activities/ModelQuestion.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/proyectofinalprogramacioniv/ui/activities/ModelQuestion.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/proyectofinalprogramacioniv/UI/Activities/ModelQuestionTeorico.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/proyectofinalprogramacioniv/ui/activities/ModelQuestionTeorico.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/proyectofinalprogramacioniv/UI/Activities/PerfilActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/proyectofinalprogramacioniv/ui/activities/PerfilActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/proyectofinalprogramacioniv/UI/Activities/PsychologicalActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/proyectofinalprogramacioniv/ui/activities/PsychologicalActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/proyectofinalprogramacioniv/UI/Activities/ResultadoActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/proyectofinalprogramacioniv/ui/activities/ResultadoActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/proyectofinalprogramacioniv/UI/Activities/SignInActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/proyectofinalprogramacioniv/ui/activities/SignInActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/proyectofinalprogramacioniv/UI/Activities/SignUpActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/proyectofinalprogramacioniv/ui/activities/SignUpActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/proyectofinalprogramacioniv/UI/Activities/TheoreticalActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/proyectofinalprogramacioniv/ui/activities/TheoreticalActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/proyectofinalprogramacioniv/UI/ViewModels/HomeViewModel.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/proyectofinalprogramacioniv/UI/ViewModels/QuestionViewModel.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/proyectofinalprogramacioniv/UI/ViewModels/SignInViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/proyectofinalprogramacioniv/ui/viewmodels/SignInViewModel.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/proyectofinalprogramacioniv/core/SignUserStatics.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/proyectofinalprogramacioniv/core/SignUserStatics.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_estudiar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_estudiar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_forget_pass.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_forget_pass.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/proyectofinalprogramacioniv/core/ResultTestStatics.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/proyectofinalprogramacioniv/core/ResultTestStatics.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/proyectofinalprogramacioniv/ui/activities/ConfigActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/proyectofinalprogramacioniv/ui/activities/ConfigActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/proyectofinalprogramacioniv/ui/activities/HomeActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/proyectofinalprogramacioniv/ui/activities/HomeActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/proyectofinalprogramacioniv/ui/activities/PsychologicalActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/proyectofinalprogramacioniv/ui/activities/PsychologicalActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/proyectofinalprogramacioniv/ui/activities/ResultadoActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/proyectofinalprogramacioniv/ui/activities/ResultadoActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/proyectofinalprogramacioniv/ui/activities/TheoreticalActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/proyectofinalprogramacioniv/ui/activities/TheoreticalActivity.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_home.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_home.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_perfil.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_perfil.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_psychological.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_psychological.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_resultado.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_resultado.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_sign_in.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_sign_in.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_sign_up.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_sign_up.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_theoretical.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_theoretical.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[/home/vde/.android/avd/Pixel_3a_API_33_x86_64.avd]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[R58M44LA5XH]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -144,7 +115,7 @@
     <property name="SHOW_ALL_PROCESSES" value="false" />
     <property name="cidr.known.project.marker" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable-v24" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/drawable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/drawable-v24" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -175,8 +146,8 @@
       <recent name="com.example.proyectofinalprogramacioniv" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app/src/main/res/drawable" />
       <recent name="C:\Users\jhavi\Documents\GitHub\ProyectoFinalP4\app\src\main\res\drawable-v24" />
+      <recent name="$PROJECT_DIR$/app/src/main/res/drawable" />
       <recent name="C:\Users\jhavi\Documents\GitHub\ProyectoFinalP4\app\src\main\res\drawable" />
       <recent name="C:\Users\jhavi\Documents\GitHub\ProyectoFinalP4\app\src\debug\res" />
       <recent name="C:\Users\jhavi\Documents\GitHub\ProyectoFinalP4\app" />
@@ -196,6 +167,9 @@
     </key>
     <key name="android.template.-132684096">
       <recent name="com.example.proyectofinalprogramacioniv.UI.Activities" />
+    </key>
+    <key name="android.template.-991474745">
+      <recent name="com.example.proyectofinalprogramacioniv.ui.Activities" />
     </key>
   </component>
   <component name="RunManager" selected="Android App.app">
