@@ -7,6 +7,18 @@
                 android:id="@+id/itemHome"
                 android:icon="@drawable/ic_baseline_home"
                 android:title="Inicio"/>
+        <item
+            android:id="@+id/itemT"
+            android:icon="@drawable/testteorico"
+            android:title="Test teorico"/>
+        <item
+            android:id="@+id/itemPs"
+            android:icon="@drawable/ic_baseline_psicolo"
+            android:title="Test Psicologico"/>
+        <item
+            android:id="@+id/itemHis"
+            android:icon="@drawable/ic_baseline_home"
+            android:title="Historial"/>
 
     </group>
 
@@ -26,6 +38,10 @@
 
         <menu>
             <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/itemPro"
+                    android:icon="@drawable/ic_baseline_perfil"
+                    android:title="Perfil"/>
                 <item
                     android:id="@+id/itemLogOut"
                     android:icon="@drawable/ic_baseline_logout"

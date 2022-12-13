@@ -63,17 +63,61 @@ class HomeActivity : AppCompatActivity() {
                     val intent: Intent = Intent(this, HomeActivity::class.java)
                     startActivity(intent)
                 }
+                R.id.itemT -> {
+
+                    val intent: Intent = Intent(this, TheoreticalActivity ::class.java)
+                    startActivity(intent)
+                }
+                R.id.itemPs -> {
+
+                    val intent: Intent = Intent(this, PsychologicalActivity::class.java)
+                    startActivity(intent)
+                }
+                R.id.itemHis -> {
+
+                    val intent: Intent = Intent(this, HistoryActivity ::class.java)
+                    startActivity(intent)
+                }
+                R.id.itemPro -> {
+
+                    val intent: Intent = Intent(this, PerfilActivity::class.java)
+                    startActivity(intent)
+                }
                 R.id.itemSettings -> {
 
                     val intent: Intent = Intent(this, ConfigActivity::class.java)
                     startActivity(intent)
                 }
                 R.id.itemLogOut -> {
+                    fun SignOut(view: View){
 
-                    var oClsAuthentication: ClsAuthentication = ClsAuthentication()
-                    oClsAuthentication.SignOut()
-                    val intent: Intent = Intent(this, SignInActivity::class.java)
-                    startActivity(intent)
+                        // Objeto referencia a ClsAuthentication
+                        var oClsAuthentication: ClsAuthentication = ClsAuthentication()
+
+                        builder.setTitle("Alerta!")
+                            .setMessage("Quieres cerrar sesion?")
+                            .setCancelable(true)
+
+                            .setPositiveButton("Si"){dialogInterface,it ->
+                                finish()
+                                // Ejecucion de funcion
+                                oClsAuthentication.SignOut()
+                                // Ejecucion de funcion SignIn()
+                                var oClsAuthentication: ClsAuthentication = ClsAuthentication()
+                                oClsAuthentication.SignOut()
+                                val intent: Intent = Intent(this, SignInActivity::class.java)
+                                startActivity(intent)
+
+                            }
+                            .setNegativeButton("No"){dialogInterface,it ->
+                                dialogInterface.cancel()
+
+                            }
+
+                            .show()
+
+                    }
+
                 }
             }
 
@@ -101,7 +145,7 @@ class HomeActivity : AppCompatActivity() {
     fun TestPsychological(view: View) {
 
         builder.setTitle("Alerta!")
-            .setMessage("Quieres entrar a Test Psicologico?,es contra reloj")
+            .setMessage("Quieres entrar a Test Psicologico?, es contra reloj")
             .setCancelable(true)
             .setPositiveButton("Si") { dialogInterface, it ->
                 finish()
@@ -117,7 +161,7 @@ class HomeActivity : AppCompatActivity() {
     fun TestTheoretical(view: View) {
 
         builder.setTitle("Alerta!")
-            .setMessage("Quieres entrar a Test Teorico?,es contra reloj")
+            .setMessage("Quieres entrar a Test Teorico?, es contra reloj")
             .setCancelable(true)
 
             .setPositiveButton("Si") { dialogInterface, it ->
