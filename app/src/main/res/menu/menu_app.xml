@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single" >
+
+            <item
+                android:id="@+id/itemHome"
+                android:icon="@drawable/ic_baseline_home"
+                android:title="Inicio"/>
+
+    </group>
+
+    <item android:title="Aplicacion">
+
+        <menu>
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/itemSettings"
+                    android:icon="@drawable/ic_baseline_settings"
+                    android:title="Configuracion"/>
+            </group>
+        </menu>
+    </item>
+    <item android:title="Sesion">
+
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/itemLogOut"
+                    android:icon="@drawable/ic_baseline_logout"
+                    android:title="Cerrar Sesion"/>
+            </group>
+        </menu>
+    </item>
+</menu>

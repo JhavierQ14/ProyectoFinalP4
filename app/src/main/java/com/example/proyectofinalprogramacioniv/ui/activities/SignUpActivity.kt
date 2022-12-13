@@ -50,12 +50,10 @@ class SignUpActivity : AppCompatActivity() {
                             "lastNameUser" to lastNameEdt.text.toString(),
                             "avatarUser" to "https://drive.google.com/file/d/1vovHfPW6mnOH7UkBVgDMvrbzhDlXiFCf/view?usp=share_link"
 
-
-
                             )
                          )
                             Toast.makeText(this,"Registro exitoso",Toast.LENGTH_LONG).show()
-                            Home()
+                            SignIn()
 
                         } else {
 
@@ -68,8 +66,9 @@ class SignUpActivity : AppCompatActivity() {
             }
     }
 
-    private fun Home() {
-        val Login: Intent = Intent(this, HomeActivity::class.java)
+    private fun SignIn() {
+
+        val Login: Intent = Intent(this, SignInActivity::class.java)
         startActivity(Login)
 
     }

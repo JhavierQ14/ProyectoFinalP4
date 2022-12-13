@@ -8,12 +8,13 @@ import android.os.Bundle
 import android.view.View
 import android.view.View.OnClickListener
 import android.widget.TextView
+import androidx.activity.viewModels
+import androidx.lifecycle.Observer
 import androidx.core.content.ContextCompat
 import com.example.proyectofinalprogramacioniv.R
-import com.example.proyectofinalprogramacioniv.ui.activities.Constants
-import com.example.proyectofinalprogramacioniv.ui.activities.ModelQuestionTeorico
 import com.example.proyectofinalprogramacioniv.core.ResultTestStatics
 import com.example.proyectofinalprogramacioniv.databinding.ActivityTheoreticalBinding
+import com.example.proyectofinalprogramacioniv.ui.viewmodels.TheoreticalViewModel
 
 class TheoreticalActivity : AppCompatActivity(), OnClickListener {
 
@@ -22,16 +23,22 @@ class TheoreticalActivity : AppCompatActivity(), OnClickListener {
     private var mSelectedOptionPosition: Int = 0
     private var mCorrectAnswers: Int = 0
 
+    private val theoreticalViewModel: TheoreticalViewModel by viewModels()
     private lateinit var biding: ActivityTheoreticalBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
+
         super.onCreate(savedInstanceState)
         biding = ActivityTheoreticalBinding.inflate(layoutInflater)
         setContentView(biding.root)
 
+        theoreticalViewModel.onCreate()
+        theoreticalViewModel.questionsModel.observe(this, Observer {
+
+        })
+
         mQuestionList = Constants.getQuestionTeorico()
         SetQuestion()
-
 
         biding.tvPrimeraOpcion.setOnClickListener(this)
         biding.tvSegundaOpcion.setOnClickListener(this)

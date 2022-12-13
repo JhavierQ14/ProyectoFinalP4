@@ -25,6 +25,8 @@ class SignUserStatics constructor(
                 val email = user.email
                 val photoUrl = user.photoUrl
 
+                val n = user.providerId
+
                 //emailUserEdt.setText(email)
                 if (email != null) {
                     emailUser = email
