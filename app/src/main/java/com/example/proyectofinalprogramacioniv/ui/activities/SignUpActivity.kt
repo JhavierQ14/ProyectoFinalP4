@@ -77,17 +77,9 @@ class SignUpActivity : AppCompatActivity() {
 
         val builder = AlertDialog.Builder(this)
         builder.setTitle("Error")
-        builder.setMessage("Se a pruducido un error")
+        builder.setMessage("Usuario Existente")
         builder.setPositiveButton("Aceptar", null)
         val dialog: AlertDialog = builder.create()
         dialog.show()
     }
-
-  /*  private fun getInfo(){
-    db.collection("Users").document(email).get().addOnSuccessListener{
-        name.setText("name") has String?()
-        Apellido.setText(""Apellido) has String?()
-    }
-
-    }*/
 }

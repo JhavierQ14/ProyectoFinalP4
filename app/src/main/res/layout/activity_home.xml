@@ -9,6 +9,12 @@
     android:id="@+id/activityHome"
     tools:context=".ui.activities.HomeActivity">
 
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fcv_View"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:name="com.example.proyectofinalprogramacioniv.ui.fragments.HomeFragment"/>
+
     <com.google.android.material.navigation.NavigationView
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
@@ -17,7 +23,5 @@
         android:id="@+id/navMenu"
         android:layout_gravity="start"
         tools:ignore="MissingConstraints" />
-
-
 
 </androidx.drawerlayout.widget.DrawerLayout>

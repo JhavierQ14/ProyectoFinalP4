@@ -147,7 +147,7 @@ class SignInActivity: AppCompatActivity() {
 
         val builder = AlertDialog.Builder(this)
         builder.setTitle("Error")
-        builder.setMessage("Se a pruducido un error")
+        builder.setMessage("Usuario o contraseña incorrectos")
         builder.setPositiveButton("Aceptar", null)
         val dialog: AlertDialog = builder.create()
         dialog.show()

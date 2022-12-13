@@ -28,9 +28,9 @@ class SignUserStatics constructor(
                 val n = user.providerId
 
                 //emailUserEdt.setText(email)
-                if (email != null) {
-                    emailUser = email
+                if (name == "") {
 
+                    emailUser = email
 
                     val oFirebaseConnectionDS = FirestoreNetwork
                     oFirebaseConnectionDS.ProviderFirebaseFirestore().collection("Users")

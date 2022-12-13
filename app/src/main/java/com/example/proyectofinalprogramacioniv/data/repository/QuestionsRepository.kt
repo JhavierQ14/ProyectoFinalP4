@@ -8,12 +8,9 @@ class QuestionsRepository {
 
     private val serviceQuestion = QuestionsService()
 
-    suspend fun GetAllQuestions(): ArrayList<Questions>{
+    suspend fun GetAllQuestions(){
 
         val listQuestionResponse: ArrayList<Questions> = serviceQuestion.GetQuestions()
         QuestionsProvider.questions = listQuestionResponse
-
-        return listQuestionResponse
     }
-
 }
